@@ -1,0 +1,12 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\bin\Debug\net6.0\ModelLayer.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\bin\Debug\net6.0\ModelLayer.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\bin\Debug\net6.0\ModelLayer.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\refint\ModelLayer.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ModelLayer.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\Projetos\c#\WebApplicationMVC\ModelLayer\obj\Debug\net6.0\ref\ModelLayer.dll
