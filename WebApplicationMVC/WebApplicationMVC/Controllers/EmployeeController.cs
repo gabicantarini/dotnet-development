@@ -19,13 +19,14 @@ namespace WebApplicationMVC.Controllers
             employees.Add(new Employee { ID = 2, Name = "Paula", ContactNumber = 888888888, Address = " Test Address2" });
         }
 
+        //api/employee - funciona
         [HttpGet(Name = "EmployeeList")]
         public IEnumerable<Employee> Get()
         {
             return employees;
         }
 
-
+        //api/employee/1 - não funciona
         public Employee Get (int id)
         {
             return employees.FirstOrDefault(x => x.ID.Equals(id));
