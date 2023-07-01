@@ -5,7 +5,7 @@ class Program
     {
         Console.WriteLine("Payment Roll.");
         Console.Write("\nDigite o salário bruto: ");
-        double salary = Convert.ToInt32(Console.ReadLine()); ;
+        double salary = Convert.ToInt32(Console.ReadLine()); 
         
 
         if(salary < 500)
