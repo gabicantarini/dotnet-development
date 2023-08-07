@@ -1,7 +1,0 @@
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\bin\Debug\Arrays.Lists.exe.config
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\bin\Debug\Arrays.Lists.exe
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\bin\Debug\Arrays.Lists.pdb
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\obj\Debug\Arrays.Lists.csproj.AssemblyReference.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\obj\Debug\Arrays.Lists.csproj.CoreCompileInputs.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\obj\Debug\Arrays.Lists.exe
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Arrays.Lists\obj\Debug\Arrays.Lists.pdb
