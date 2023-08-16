@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array.Lists", "Array.Lists\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{B42A9831-AC93-481A-8861-741C9AE4510E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTime", "DateTime\DateTime.csproj", "{56A35203-C271-4899-909D-F85FCEA74265}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMethods", "DateTimeMethods\DateTimeMethods.csproj", "{6C581639-A15F-40D6-9F32-D54CD64EB770}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,10 +59,10 @@ Global
 		{B42A9831-AC93-481A-8861-741C9AE4510E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B42A9831-AC93-481A-8861-741C9AE4510E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B42A9831-AC93-481A-8861-741C9AE4510E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56A35203-C271-4899-909D-F85FCEA74265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56A35203-C271-4899-909D-F85FCEA74265}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56A35203-C271-4899-909D-F85FCEA74265}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56A35203-C271-4899-909D-F85FCEA74265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C581639-A15F-40D6-9F32-D54CD64EB770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C581639-A15F-40D6-9F32-D54CD64EB770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C581639-A15F-40D6-9F32-D54CD64EB770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C581639-A15F-40D6-9F32-D54CD64EB770}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
