@@ -1,0 +1,2 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeFormat\obj\Debug\DateTimeFormat.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeFormat\obj\Debug\DateTimeFormat.csproj.CoreCompileInputs.cache
