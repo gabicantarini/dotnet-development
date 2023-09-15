@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\bin\Debug\net6.0\If.Else.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\bin\Debug\net6.0\If.Else.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\bin\Debug\net6.0\If.Else.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\bin\Debug\net6.0\If.Else.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\bin\Debug\net6.0\If.Else.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\refint\If.Else.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\If.Else.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\C#\obj\Debug\net6.0\ref\If.Else.dll
