@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\bin\Debug\net6.0\Switch.Case.CompanyPL.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\bin\Debug\net6.0\Switch.Case.CompanyPL.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\bin\Debug\net6.0\Switch.Case.CompanyPL.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\bin\Debug\net6.0\Switch.Case.CompanyPL.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\bin\Debug\net6.0\Switch.Case.CompanyPL.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\refint\Switch.Case.CompanyPL.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\Switch.Case.CompanyPL.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Switch.Case.CompanyPL\obj\Debug\net6.0\ref\Switch.Case.CompanyPL.dll
