@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\bin\Debug\net6.0\Array.Lists.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\bin\Debug\net6.0\Array.Lists.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\bin\Debug\net6.0\Array.Lists.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\bin\Debug\net6.0\Array.Lists.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\bin\Debug\net6.0\Array.Lists.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\refint\Array.Lists.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\Array.Lists.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Array.Lists\obj\Debug\net6.0\ref\Array.Lists.dll

@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "If.Else", "C#\If.Else.csproj", "{41E51D89-11A8-4467-831E-3025768EF8E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "If.Else", "C#\If.Else.csproj", "{41E51D89-11A8-4467-831E-3025768EF8E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch.Case.CompanyPL", "Switch.Case.CompanyPL\Switch.Case.CompanyPL.csproj", "{0C3C8573-6785-4C42-BD3E-B1A363500A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Switch.Case.CompanyPL", "Switch.Case.CompanyPL\Switch.Case.CompanyPL.csproj", "{0C3C8573-6785-4C42-BD3E-B1A363500A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For", "For\For.csproj", "{FF5F0BB9-647C-44D0-BEC8-98780A110872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "For", "For\For.csproj", "{FF5F0BB9-647C-44D0-BEC8-98780A110872}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "While", "While\While.csproj", "{7247B53C-7537-448C-81FB-00E85B82F01E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "While", "While\While.csproj", "{7247B53C-7537-448C-81FB-00E85B82F01E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach", "Foreach\Foreach.csproj", "{886202B3-E95E-4FFF-97EB-659697A1DC26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach", "Foreach\Foreach.csproj", "{886202B3-E95E-4FFF-97EB-659697A1DC26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{EC99DC2D-6BE0-4673-BDE9-A73CD6845A75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.csproj", "{EC99DC2D-6BE0-4673-BDE9-A73CD6845A75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array.Lists", "Array.Lists\Array.Lists.csproj", "{84C438AD-0031-49F9-BC22-44E9E065C773}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays.Lists", "Arrays.Lists\Arrays.Lists.csproj", "{78C92880-8620-40C6-964B-434C8868D780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{EC99DC2D-6BE0-4673-BDE9-A73CD6845A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC99DC2D-6BE0-4673-BDE9-A73CD6845A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC99DC2D-6BE0-4673-BDE9-A73CD6845A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C438AD-0031-49F9-BC22-44E9E065C773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C438AD-0031-49F9-BC22-44E9E065C773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C438AD-0031-49F9-BC22-44E9E065C773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C438AD-0031-49F9-BC22-44E9E065C773}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C92880-8620-40C6-964B-434C8868D780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C92880-8620-40C6-964B-434C8868D780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C92880-8620-40C6-964B-434C8868D780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C92880-8620-40C6-964B-434C8868D780}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
