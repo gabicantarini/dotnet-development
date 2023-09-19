@@ -22,13 +22,13 @@ class Program
         {
             numbersCopy[i] = numberInt[i];
         }
-        Console.WriteLine("Numbers Copy: " + numbersCopy);
-        Console.WriteLine("Numbers Int: " + numberInt);
+        Console.WriteLine("Numbers Copy: " + string.Join(", ", numbersCopy)); //By using string.Join, you will convert the array elements into a comma-separated string, which can be concatenated to the other string for printing.
+        Console.WriteLine("Numbers Int: " + string.Join(", ", numberInt));
 
         var numbersString = "1 2 3 4 5 6";
         var numbersStringSplit = numbersString.Split(' ');
         var numberStringConvert = Array.ConvertAll(numbersStringSplit, Convert.ToInt32);
-        Console.Write("\nnumberStringConvert: " + numberStringConvert);
+        Console.Write("\nnumberStringConvert: " + string.Join(", ", numberStringConvert));
         Console.ReadKey();
 
         #endregion Arrays
