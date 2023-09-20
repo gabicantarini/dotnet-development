@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Channels;
+
 class Program
 {
     static void Main()
@@ -28,7 +30,7 @@ class Program
         var numbersString = "1 2 3 4 5 6";
         var numbersStringSplit = numbersString.Split(' ');
         var numberStringConvert = Array.ConvertAll(numbersStringSplit, Convert.ToInt32);
-        Console.Write("\nnumberStringConvert: " + string.Join(", ", numberStringConvert));
+        Console.Write("\n number String Convert: " + string.Join(" , ", numberStringConvert));
         Console.ReadKey();
 
         #endregion Arrays
@@ -52,11 +54,25 @@ class Program
         var list = new List<int> {0, 1, 2, 3, 4 }; //forma de inicializar uma lista
         var list2 = new List<int> (numberInt); //forma de inicializar uma lista
 
+        
         list.Add(5);
         list.AddRange(new List<int> { 6, 7});
+        list.AddRange(new int[] { 8, 9 });
 
+        //Reverse List
+        Console.WriteLine("Reverse List: ");
+        list.Reverse();
+        list.ForEach(l => Console.WriteLine(l)); //lambda expression
 
+        //Ordered List
+        Console.WriteLine("Ordered List: ");
+        list.Sort();
+        list.ForEach(l => Console.WriteLine(l)); //lambda expression
 
+        list.Remove(4);
+        list.RemoveAll(l => l > 5); //lambda expression to remove less than 5
+
+        list.Clear();
     }
 
 
