@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\bin\Debug\net6.0\Task2.Salary.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\bin\Debug\net6.0\Task2.Salary.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\bin\Debug\net6.0\Task2.Salary.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\bin\Debug\net6.0\Task2.Salary.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\bin\Debug\net6.0\Task2.Salary.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\refint\Task2.Salary.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\Task2.Salary.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task2.Salary\obj\Debug\net6.0\ref\Task2.Salary.dll

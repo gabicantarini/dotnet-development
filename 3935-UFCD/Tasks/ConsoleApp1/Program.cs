@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 class Program
 {
     static void Main()
@@ -7,7 +6,7 @@ class Program
         double length, heigh, area;
 
         Console.WriteLine("Informe as Área do Retângulo.");
-        Console.Write("Digite o comprimento: ");
+        Console.Write("\nDigite o comprimento: ");
         length = double.Parse(Console.ReadLine());
         Console.Write("\nDigite a altura: ");
         heigh = double.Parse(Console.ReadLine());
