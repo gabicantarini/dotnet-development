@@ -1,6 +1,0 @@
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\addIn\SharePointAddInTest\SharePointAddInTest\bin\Debug\SharePointAddInTest.dll.config
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\addIn\SharePointAddInTest\SharePointAddInTest\bin\Debug\SharePointAddInTest.pdb
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\addIn\SharePointAddInTest\SharePointAddInTest\obj\Debug\SharePointAddInTest.csproj.AssemblyReference.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\addIn\SharePointAddInTest\SharePointAddInTest\obj\Debug\SharePointAddInTest.csproj.CoreCompileInputs.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\addIn\SharePointAddInTest\SharePointAddInTest\obj\Debug\SharePointAddInTest.dll
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\addIn\SharePointAddInTest\SharePointAddInTest\obj\Debug\SharePointAddInTest.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "63syRWDghpZ9giNP4agEE0tTu9I8biSLouDUIOE+bp7Kd8yxFZWqlWDPOR+LMbAXJ453fPImG4d4taRS5++PLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\rank-app\\RankApp\\RankApp\\RankApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriela\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
