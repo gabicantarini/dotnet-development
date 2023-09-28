@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "58a686fb-2946-4263-bd89-348d9be324ed": {
+      "ProjectGuid": "58a686fb-2946-4263-bd89-348d9be324ed",
+      "DisplayName": "EstruturaDoPrograma",
+      "ColorIndex": 0
+    },
+    "ee555b29-95cf-480c-aa10-c169a1161306": {
+      "ProjectGuid": "ee555b29-95cf-480c-aa10-c169a1161306",
+      "DisplayName": "EstruturaDoPrograma",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

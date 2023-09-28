@@ -1,0 +1,15 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\bin\Debug\net6.0\exercises.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\bin\Debug\net6.0\exercises.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\bin\Debug\net6.0\exercises.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\bin\Debug\net6.0\exercises.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\bin\Debug\net6.0\exercises.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\refint\exercises.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\exercises.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022 TI\CSharp\exercises\obj\Debug\net6.0\ref\exercises.dll

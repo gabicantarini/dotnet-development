@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ed6e56e7-6769-4d22-ae58-5cd7e4b6d548": {
+      "ProjectGuid": "ed6e56e7-6769-4d22-ae58-5cd7e4b6d548",
+      "DisplayName": "3-CriandoVariaveisFlutuantes",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

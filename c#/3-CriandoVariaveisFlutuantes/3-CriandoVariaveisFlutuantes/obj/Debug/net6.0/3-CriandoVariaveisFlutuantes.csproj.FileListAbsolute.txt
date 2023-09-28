@@ -1,0 +1,15 @@
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\bin\Debug\net6.0\3-CriandoVariaveisFlutuantes.exe
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\bin\Debug\net6.0\3-CriandoVariaveisFlutuantes.deps.json
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\bin\Debug\net6.0\3-CriandoVariaveisFlutuantes.runtimeconfig.json
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\bin\Debug\net6.0\3-CriandoVariaveisFlutuantes.dll
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\bin\Debug\net6.0\ref\3-CriandoVariaveisFlutuantes.dll
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\bin\Debug\net6.0\3-CriandoVariaveisFlutuantes.pdb
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.csproj.AssemblyReference.cache
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.AssemblyInfoInputs.cache
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.AssemblyInfo.cs
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.csproj.CoreCompileInputs.cache
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.dll
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\ref\3-CriandoVariaveisFlutuantes.dll
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.pdb
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\3-CriandoVariaveisFlutuantes\3-CriandoVariaveisFlutuantes\obj\Debug\net6.0\3-CriandoVariaveisFlutuantes.genruntimeconfig.cache

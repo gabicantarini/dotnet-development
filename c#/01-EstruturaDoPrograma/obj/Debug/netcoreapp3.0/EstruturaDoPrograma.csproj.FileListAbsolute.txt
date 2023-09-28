@@ -1,0 +1,14 @@
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.exe
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.deps.json
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.json
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.runtimeconfig.dev.json
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\bin\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.AssemblyReference.cache
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfoInputs.cache
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.AssemblyInfo.cs
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.csproj.CoreCompileInputs.cache
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.dll
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.pdb
+C:\Users\leand\Desktop\Cantarini\Gabriela\TI\CSharp\01-EstruturaDoPrograma\obj\Debug\netcoreapp3.0\EstruturaDoPrograma.genruntimeconfig.cache

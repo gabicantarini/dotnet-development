@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5006bb13-6f36-4d88-a41a-6a611dc385d5": {
+      "ProjectGuid": "5006bb13-6f36-4d88-a41a-6a611dc385d5",
+      "DisplayName": "1-PrimeiroProjeto",
+      "ColorIndex": 0
+    },
+    "4fe41955-da3b-4473-8e02-8e3f88f23e3d": {
+      "ProjectGuid": "4fe41955-da3b-4473-8e02-8e3f88f23e3d",
+      "DisplayName": "2-CriandoVariaveis",
+      "ColorIndex": 1
+    },
+    "8159c661-3a96-47ab-beec-660ab4fc5b2e": {
+      "ProjectGuid": "8159c661-3a96-47ab-beec-660ab4fc5b2e",
+      "DisplayName": "P13-LacoDeRepeticaoFor3",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
