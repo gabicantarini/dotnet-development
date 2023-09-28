@@ -1,0 +1,75 @@
+﻿@model IEnumerable<AlsCompras.Models.AreaVehicle.VehicleEquipament>
+
+@{
+    ViewData["Title"] = "Seleciona Equipamento";
+}
+
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>
+                <!-- Linha do Tempo -->
+                <nav class="navbar justify-content-center d-block mb-5">
+                    <div class="" id="conteudoNavbarSuportado">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item">
+                                1. INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                2. ESTADO DO VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                3. PERFIL
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                4. A TUA OFERTA
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container col-10">
+                    <div class="mb-3">
+                        <h4>Seleciona o Equipamento</h4>
+                    </div>
+                    <div class="col-12">
+                        <form id="formSelectKilometer" action="/Home/vehicleKilometers" method="post">
+                            <div class="row mb-3">
+                                @foreach (var item in Model)
+                                {
+                                    var itens = @item.Id;
+                                    <div class="col-sm-4 mt-2">
+                                        <input type="checkbox" class="btn-check" name="vehicleEquipamentId" id="@item.Id" autocomplete="off"  onclick="javascript: setVehicleEquipament('@item.Id').$('#divMsgError').addClass('d-none');">
+                                        <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="@item.Id">@item.Name</label>
+                                    </div>
+                                }
+
+                            </div>
+                            <div id="divMsgError" class="row mb-3 d-none">
+                                <span class="text-danger">
+                                    Erro por favor selecione uma das opções!
+                                </span>
+                            </div>
+                            <div class="row mt-5 mb-3">
+                                <div class="col-sm-12 d-flex justify-content-between">
+                                    <button onclick="history.back(-1)" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                    <button type="submit" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Scripts{
+    <script src="~/scripts/vehicleEquipament.js"></script>
+}
+
+

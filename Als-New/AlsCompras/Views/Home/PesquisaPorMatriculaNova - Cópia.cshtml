@@ -1,0 +1,147 @@
+﻿@model AlsCompras.ViewModel.Vehicles.FrontCheckImmatVM
+
+@{
+    ViewData["Title"] = "PesquisaPorMatricula";
+}
+
+
+<section class="home-one">
+    <div class="container">
+        <div class="">
+            <div class="col-lg-8 m-auto">
+                <div class="home_content home1_style">
+                    <div class="home-text text-center mb30 d-none d-sm-block">
+                        <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                    </div>
+                    <!--<a href="Home/InformacaoesVeiculoEquipamento">Equipamentos</a>-->
+                    <div class="container step-full d-flex flex-column align-items-center">
+                        <!--<ul class="justify-content-between d-inline-flex position-relative g-3">
+                            <li class="d-flex flex-column align-items-center">
+                                1 INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="d-flex flex-column align-items-center">
+                                2 ESTADO DO VEÍCULO
+                            </li>
+                            <li class="d-flex flex-column align-items-center">
+                                3 PERFIL
+                            </li>
+                            <li class="d-flex flex-column align-items-center">
+                                4 O TEU PONTO DE VENDA
+                            </li>
+                            <li class="d-flex flex-column align-items-center">
+                                5 A TUA OFERTA
+                            </li>
+
+
+                        </ul>-->
+
+                        <div class="container">
+                            <div class="row g-5 mb-5">
+                                <div class="col-sm">
+                                    1 INFORMAÇÕES SOBRE O VEÍCULO
+                                </div>
+                                <div class="col-sm">
+                                    2 ESTADO DO VEÍCULO
+                                </div>
+                                <div class="col-sm">
+                                    3 PERFIL
+                                </div>
+                                <div class="col-sm">
+                                    4 O TEU PONTO DE VENDA
+                                </div>
+                                <div class="col-sm">
+                                    5 A TUA OFERTA
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="container">
+                        <div class="mb-3">
+                            Veículo Registado a
+                        </div>
+                        <div class="col-12">
+                            <form class="col-12">
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="marca" class="form-label">Marca</label>
+                                        <input id="marca" type="text" class="form-control p-0 border-0 h-50" placeholder="OPEL" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="combustível" class="form-label">Combustível</label>
+                                        <input id="combustível" type="text" class="form-control p-0 border-0 h-50" placeholder="GASOLINA" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="modelo" class="form-label">Modelo</label>
+                                        <input id="modelo" type="text" class="form-control p-0 border-0 h-50" placeholder="CORSA" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="caixa velocidade" class="form-label">Caixa Velocidade</label>
+                                        <input id="caixa velocidade" type="text" class="form-control p-0 border-0 h-50" placeholder="MANUAL" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="carroçaria" class="form-label">Carroçaria</label>
+                                        <input id="carroçaria" type="text" class="form-control p-0 border-0 h-50" placeholder="OPEL" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="cavalos" class="form-label">Cavalos</label>
+                                        <input id="cavalos" type="text" class="form-control p-0 border-0 h-50" placeholder="OPEL" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="dataDeMatricula" class="form-label">Data De Matrícula</label>
+                                        <input id="dataDeMatricula" type="text" class="form-control p-0 border-0 h-50" placeholder="OPEL" />
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="potencia" class="form-label">Potência</label>
+                                        <input id="potencia" type="text" class="form-control p-0 border-0 h-50" placeholder="OPEL" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="numeroDePortas" class="form-label">Número de Portas</label>
+                                        <input id="numeroDePortas" type="text" class="form-control p-0 border-0 h-50" placeholder="OPEL" />
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-12 d-flex justify-content-between">
+                                        <button class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                        <button class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>    
+
+</section>
+
+@*Cidade: @Model.LocationVM?.Name
+    <br />
+    Temperatura: @Model.CurrentVM?.TemperaturaCelsius
+    <br />
+    Vento: @Model.CurrentVM?.VentoKmhora*@
+
+@{
+    if (Model != null)
+    {
+        <div class="row">
+            <div class="col-12">
+                Marca - @Model.content.makeName
+            </div>
+        </div>
+    }
+}
+
+

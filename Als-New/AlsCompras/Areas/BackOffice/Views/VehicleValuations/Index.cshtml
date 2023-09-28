@@ -1,0 +1,65 @@
+﻿@model IEnumerable<AlsCompras.Models.AreaVehicle.VehicleValuation>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.KM)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleEquipamentId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleColorId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PriceValuation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CrmClientId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypeOrigin)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.KM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleEquipamentId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleColorId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PriceValuation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CrmClientId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TypeOrigin)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

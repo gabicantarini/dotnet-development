@@ -1,0 +1,113 @@
+﻿@model AlsCompras.ViewModel.Vehicles.FrontCheckImmatVM
+@using AlsCompras.Models.AreaVehicle
+
+@{
+    ViewData["Title"] = "PesquisaPorMatricula";
+
+    VehicleValuation vehicleValuation = ViewData["VehicleValuation"] as VehicleValuation;
+
+}
+
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>               
+                
+                    <!-- Linha do Tempo -->
+                    <nav class="navbar justify-content-center d-block mb-5">                                      
+                        <div class="" id="conteudoNavbarSuportado">
+                            <ul class="nav nav-pills nav-fill">
+                                <li class="nav-item">
+                                    1. INFORMAÇÕES SOBRE O VEÍCULO
+                                </li>
+                                <li class="nav-item d-none d-sm-block d-md-block">
+                                    2. ESTADO DO VEÍCULO
+                                </li>
+                                <li class="nav-item d-none d-sm-block d-md-block">
+                                    3. PERFIL
+                                </li>                                
+                                <li class="nav-item d-none d-sm-block d-md-block">
+                                    4. A TUA OFERTA
+                                </li>
+                            </ul>                            
+                        </div>
+                    </nav>
+                
+                <div class="container">
+                    <div class="mb-3 ml0-md ml0-xs" style="margin-right: 0px;margin-left: 150px;">
+                        <h4>Veículo Registado a</h4> 
+                    </div>
+                    <div class="col-12">
+                        <form class="col-lg-12 col-sm-6 ml0-md ml0-xs" style="margin-right: 0px; margin-left: 150px;">
+                            <div class="row mb-3">
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="marca" class="form-label">Marca</label>
+                                        <div id="marca" type="text" class="form-control p-0 border-0 h-50">OPEL</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="combustível" class="form-label">Combustível</label>
+                                        <div id="combustível" type="text" class="form-control p-0 border-0 h-50">GASOLINA</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="modelo" class="form-label">Modelo</label>
+                                        <div id="modelo" type="text" class="form-control p-0 border-0 h-50">CORSA</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="caixa velocidade" class="form-label">Caixa Velocidade</label>
+                                        <div id="caixa velocidade" type="text" class="form-control p-0 border-0 h-50">MANUAL</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="carroçaria" class="form-label">Carroçaria</label>
+                                        <div id="carroçaria" type="text" class="form-control p-0 border-0 h-50">EXAMPLE</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="cavalos" class="form-label">Cavalos</label>
+                                        <div id="cavalos" type="text" class="form-control p-0 border-0 h-50">EXAMPLE</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="dataDeMatricula" class="form-label">Data De Matrícula</label>
+                                        <div id="dataDeMatricula" type="text" class="form-control p-0 border-0 h-50">23-02-02</div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="potencia" class="form-label">Potência</label>
+                                        <div id="potencia" type="text" class="form-control p-0 border-0 h-50">EXAMPLE</div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6">
+                                        <label for="numeroDePortas" class="form-label">Número de Portas</label>
+                                        <div id="numeroDePortas" type="text" class="form-control p-0 border-0 h-50">EXAMPLE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <form class="col-10 ml0-md ml0-xs" style="margin-right: 60px; margin-left: 100px;">
+                            <div class="row mb-3">
+                                <div class="col-sm-12 d-flex justify-content-between">
+                                    <button asp-action="Index" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                    <button asp-action="vehicleVersion" id="teste_btn" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*<script>
+    localStorage.setItem('vehicleValuationId', '@vehicleValuation.Id');
+</script>*@
+

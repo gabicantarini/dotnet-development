@@ -1,0 +1,59 @@
+﻿@model AlsCompras.ViewModel.Vehicles.SearchLicencePlateVM
+
+@{
+    ViewData["Title"] = "PesquisaPorMatricula";
+}
+
+<h1>PesquisaPorMatricula</h1>
+
+@*Cidade: @Model.LocationVM?.Name
+    <br />
+    Temperatura: @Model.CurrentVM?.TemperaturaCelsius
+    <br />
+    Vento: @Model.CurrentVM?.VentoKmhora*@
+
+@{
+    if (Model != null)
+    {
+        <div class="row">
+            <div class="col-6">
+                Marca
+            </div>
+            <div class="col-6">
+                @Model.SearchLicencePlateDataVM?.SearchLicencePlatePostingVM?.SearchLicencePlateVehicleInformationVM?.Make
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                Modelo
+            </div>
+            <div class="col-6">
+                @Model.SearchLicencePlateDataVM?.SearchLicencePlatePostingVM?.SearchLicencePlateVehicleInformationVM?.Model
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                power
+            </div>
+            <div class="col-6">
+                @Model.SearchLicencePlateDataVM?.SearchLicencePlatePostingVM?.SearchLicencePlateVehicleInformationVM?.Power
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                ano
+            </div>
+            <div class="col-6">
+                @Model.SearchLicencePlateDataVM?.SearchLicencePlatePostingVM?.SearchLicencePlateVehicleInformationVM?.Year
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                Tipo Carroceria
+            </div>
+            <div class="col-6">
+                @Model.SearchLicencePlateDataVM?.SearchLicencePlatePostingVM?.SearchLicencePlateVehicleInformationVM?.BodyType
+            </div>
+        </div>
+    }
+}

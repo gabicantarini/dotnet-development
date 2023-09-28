@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Docs Manutencao";
+}
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>
+                <!-- Linha do Tempo -->
+                <nav class="navbar justify-content-center d-block mb-5">
+                    <div class="" id="conteudoNavbarSuportado">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                1. INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="nav-item">
+                                2. ESTADO DO VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                3. PERFIL
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                4. A TUA OFERTA
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container col-10">                   
+                    <div class="col-12">
+                        <form id="formVehiclePhotos" action="/Home/vehiclePhoto" method="post">
+                            <div class="mb-3">
+                                <h4>Possuis as faturas das manutenções ?</h4>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 btn-group-toggle" data-toggle="buttons">
+                                    <input type="radio" class="btn-check" name="docsOption1" id="option1" value="Sim" autocomplete="off" onclick="javascript: $('#divMsgError1').addClass('d-none');">
+                                    <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="option1">Sim</label>
+                                </div>
+                                <div class="col-sm-4 btn-group-toggle" data-toggle="buttons">
+                                    <input type="radio" class="btn-check" name="docsOption1" id="option2" value="Não" autocomplete="off" onclick="javascript: $('#divMsgError1').addClass('d-none');">
+                                    <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="option2">Não</label>
+                                </div>
+                            </div>
+                            <div id="divMsgError1" class="row mb-3 d-none">
+                                <span class="text-danger">
+                                    Erro por favor selecione uma das opções!
+                                </span>
+                            </div>
+                            <div class="mb-3">
+                                <h4>Possuis o livro de manutenções ?</h4>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-sm-4 btn-group-toggle" data-toggle="buttons">
+                                    <input type="radio" class="btn-check" name="docsOption2" id="option3" value="Sim" autocomplete="off" onclick="javascript: $('#divMsgError2').addClass('d-none');">
+                                    <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="option3">Sim</label>
+                                </div>
+                                <div class="col-sm-4 btn-group-toggle" data-toggle="buttons">
+                                    <input type="radio" class="btn-check" name="docsOption2" id="option4" value="Não" autocomplete="off" onclick="javascript: $('#divMsgError2').addClass('d-none');">
+                                    <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="option4">Não</label>
+                                </div>
+                            </div>
+                            <div id="divMsgError2" class="row mb-3 d-none">
+                                <span class="text-danger">
+                                    Erro por favor selecione uma das opções!
+                                </span>
+                            </div>
+                            <div class="row mt-5 mb-3">
+                                <div class="col-sm-12 d-flex justify-content-between">
+                                    <button asp-action="VehiclefirstOwner" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                    <button type="button" onclick="javascript: verifyDocumentForm();" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Scripts{
+    <script src="~/scripts/vehicleDocument.js"></script>
+}
+

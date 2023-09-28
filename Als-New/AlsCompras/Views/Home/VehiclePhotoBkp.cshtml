@@ -1,0 +1,109 @@
+﻿
+@{
+
+    ViewData["Title"] = "Fotos";
+}
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>
+                <!-- Linha do Tempo -->
+                <nav class="navbar justify-content-center d-block mb-5">
+                    <div class="" id="conteudoNavbarSuportado">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                1. INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="nav-item">
+                                2. ESTADO DO VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                3. PERFIL
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                4. A TUA OFERTA
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container col-10">
+                    <form id="formVehiclePhotos" action="/Home/VehiclePhoto" method="post" asp-action="FileUpload" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <h4>Introduza as fotografias para uma avaliação melhorada ou avance para uma avaliação básica.</h4>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-2 pt-3">
+                                <div class="box form-group">
+
+                                    <input type="file" id="btnsubmit" name="oFile" accept=".jpg, .jpeg" class="d-none" />
+                                    <img id="img" class="imgCenter" src="/images/danos/car-right.jpg" alt="img-car-right.jpg">
+                                    <input type="file" class="d-none" />
+
+                                </div>
+                            </div>
+                            <!--<div class="col-2 pt-3">
+                                <div class="box">
+                                    <input type="file" runat="server" id="oFile" name="oFile" accept=".jpg, .jpeg" class="d-none" />
+                                    <img id="img" class="imgCenter" src="/images/danos/car-left.jpg" alt="img-car-left.jpg">
+                                    <input type="submit" />
+                                </div>
+                            </div>
+                            <div class="col-2 pt-3">
+                                <div class="box">
+                                    <input type="file" runat="server" id="oFile" name="oFile" accept=".jpg, .jpeg" class="d-none" />
+                                    <img id="img" class="imgCenter" src="/images/danos/car-front.jpg" alt="img-car-front.jpg">
+                                    <input type="submit" />
+                                </div>
+                            </div>
+                            <div class="col-2 pt-3">
+                                <div class="box">
+                                    <input type="file" runat="server" id="oFile" name="oFile" accept=".jpg, .jpeg" class="d-none" />
+                                    <img id="img" class="imgCenter" src="/images/danos/car-back.jpg" alt="img-car-back.jpg">
+                                    <input type="submit" />
+                                </div>
+                            </div>-->
+                        </div>
+                        <div class="row mt-5 mb-3">
+                            <div class="col-sm-12 d-flex justify-content-between">
+                                <button asp-action="vehicleDocument" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                <button asp-action="vehicleOwnerProfile" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script>
+        $(function () {
+            $("#btnsubmit").click(function () {
+                let photo = new FormData();
+                //fd.append('name', $("#Name").val())
+                photo.append('file', $('#File')[0].files[0]);
+
+                $.ajax({
+                    url: "/api/todo/upload",
+                    data: photo,
+                    processData: false,
+                    contentType: false,
+                    method: "post",
+                    headers: {
+                        RequestVerificationToken:
+                            $('input:hidden[name="__RequestVerificationToken"]').val()
+                    },
+                    success: function (response) {
+
+                    }
+                })
+            });
+        });
+    </script>
+}
+

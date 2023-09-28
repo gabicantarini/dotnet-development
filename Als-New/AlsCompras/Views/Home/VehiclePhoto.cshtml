@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewData["Title"] = "VehiclePhoto";
+}
+
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>
+                <!-- Linha do Tempo -->
+                <nav class="navbar justify-content-center d-block mb-5">
+                    <div class="" id="conteudoNavbarSuportado">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                1. INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="nav-item">
+                                2. ESTADO DO VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                3. PERFIL
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                4. A TUA OFERTA
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container col-10">
+                    <form id="formVehiclePhotos" action="/Home/vehicleOwnerProfile" method="post" enctype="multipart/form-data">
+                        <div class="mb-3">
+                            <h4>Introduza as fotografias para uma avaliação melhorada ou avance para uma avaliação básica.</h4>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12 col-lg-4 pt-3">
+                                <div class="box" id="imgDireita">
+                                    <img class="imgCenter" id="imgRight" src="/images/danos/car-right.jpg" alt="img-car-right.jpg">
+                                </div>
+                                <div id="divImageRight" class="d-none">
+                                    @*<input type="text" id="imgRightSelected" value="no" hidden/>*@
+                                    <textarea name="textAreaImgRight" class="form-control"></textarea>
+                                    <input type="file" name="fileImgRigth" accept="image/*" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 pt-3">
+                                <div class="box" id="imgEsquerda">
+                                    <img class="imgCenter" id="imgLeft" src="/images/danos/car-left.jpg" alt="img-car-left.jpg">
+                                </div>
+                                <div id="divImageLeft" class="d-none">
+                                    @*<input type="text" id="imgLeftSelected" value="no" hidden/>*@
+                                    <textarea name="textAreaImgLeft" class="form-control"></textarea>
+                                    <input type="file" name="fileImgLeft" accept="image/*" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 pt-3">
+                                <div class="box" id="imgFrente">
+                                    <img class="imgCenter" id="imgFront" src="/images/danos/car-front.jpg" alt="img-car-front.jpg">
+                                </div>
+                                <div id="divImageFront" class="d-none">
+                                    @*<input type="text" id="imgFrontSelected" value="no" hidden />*@
+                                    <textarea name="textAreaImgFront" class="form-control"></textarea>
+                                    <input type="file" name="fileImgFront" accept="image/*" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 pt-3">
+                                <div class="box" id="imgTraseira">
+                                    <img class="imgCenter" id="imgBack" src="/images/danos/car-back.jpg" alt="img-car-back.jpg">
+                                </div>
+                                <div id="divImageBack" class="d-none">
+                                    @*<input type="text" id="imgBackSelected" value="no" hidden />*@
+                                    <textarea name="textAreaImgBack" class="form-control"></textarea>
+                                    <input type="file" name="fileImgBack" accept="image/*" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 pt-3">
+                                <div class="box">
+                                    <img class="imgCenter" id="imgAbove" src="/images/danos/car-above.jpg" alt="img-car-above.jpg">
+                                </div>
+                                <div id="divImageAbove" class="d-none">
+                                    @*<input type="text" id="imgAboveSelected" value="no" hidden />*@
+                                    <textarea name="textAreaImgAbove" class="form-control"></textarea>
+                                    <input type="file" name="fileImgAbove" accept="image/*" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 mb-3">
+                            <div class="col-sm-12 d-flex justify-content-between">
+                                <button asp-action="vehicleDocument" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                @*<button asp-action="vehicleOwnerProfile" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>*@
+                                <button type="submit" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts{
+    <script src="/scripts/vehiclePhoto.js"></script>
+}

@@ -1,0 +1,158 @@
+﻿@{
+    ViewData["Title"] = "PerfilCliente";
+
+}
+
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>
+                <!-- Linha do Tempo -->
+                <nav class="navbar justify-content-center d-block mb-5">
+                    <div class="" id="conteudoNavbarSuportado">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                1. INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                2. ESTADO DO VEÍCULO
+                            </li>
+                            <li class="nav-item">
+                                3. PERFIL
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                4. A TUA OFERTA
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container col-10">
+                    <div class="col-12 col-xs-8">
+                        <form class="container border border-primary p-3 mb-3">
+                            <div class="mb-3">
+                                <h3>O TEU VEÍCULO</h3>
+                            </div>
+                            <ul class="nav">
+                                <li class="col-2 col-xs-3">
+                                    <div class="form-text m-0">Marca</div>
+                                    <label class="form-label m-0">MARCA</label>
+                                </li>
+                                <li class="col-2 col-xs-3">
+                                    <div class="form-text m-0">Modelo</div>
+                                    <label class="form-label">MODELO</label>
+                                </li>
+                                <li class="col-2 col-xs-3">
+                                    <div class="form-text m-0">Versão</div>
+                                    <label class="form-label">VERSÃO</label>
+                                </li>
+                                <li class="col-6 col-xs-3">
+                                    <div class="form-text m-0">Quilometragem</div>
+                                    <label class="form-label">QUILOMETRAGEM</label>
+                                </li>
+                            </ul>
+                        </form>
+                        <form id="formOffer" name="profileForm" action="/Home/vehicleOffer" method="post">
+                            <div class="mb-3">
+                                <h4>1. INTRODUZ OS TEUS DADOS</h4>
+                            </div>
+                            <div class="mb-3">
+                                <h5>Indica os teus dados para receber a avaliação por email.</h5>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label">Nome Completo</label>
+                                    <input type="text" class="form-control h-75 input-container input-container--invalido" name="name" id="clientName" placeholder="Digite o teu nome completo" onclick="javascript: $('#divMsgError1').addClass('d-none');">
+                                </div>
+                                <div id="divMsgError1" class="row mb-3 d-none">
+                                    <span class="text-danger">
+                                        Por favor, digite o seu nome completo!
+                                    </span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control h-75" name="mail" id="clientMail" placeholder="email@email.com" onclick="javascript: $('#divMsgError2').addClass('d-none');">
+                                </div>
+                                <div id="divMsgError2" class="row mb-3 d-none">
+                                    <span class="text-danger">
+                                        Por favor, digite o seu email!
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6 mb-3 mt-3">
+                                    <label for="inputZipCode" class="form-label">Telefone</label>
+                                    <input type="tel" placeholder="900 000 000" class="form-control h-75" name="phone" id="clientPhone" onclick="javascript: $('#divMsgError3').addClass('d-none');">
+                                </div>
+                                <div id="divMsgError3" class="row mb-3 d-none">
+                                    <span class="text-danger">
+                                        Por favor, digite o seu telefone corretamente!
+                                    </span>
+                                </div>
+                                <div class="col-md-6 mt-3 mb-3">
+                                    <label for="inputZipCode" class="form-label">Código Postal</label>
+                                    <input type="text" placeholder="25 00 000" class="form-control h-75" name="zipCode" id="clientZipCode" onclick="javascript: $('#divMsgError4').addClass('d-none');">
+                                </div>
+                                <div id="divMsgError4" class="row mb-3 d-none">
+                                    <span class="text-danger">
+                                        Por favor, digite o seu código postal!
+                                    </span>
+                                </div>
+                            </div>                            
+                            <div class="mb-3">
+                                <h5>Pretendo adquirir um:</h5>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-2 form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onclick="javascript: $('#divMsgError5').addClass('d-none');">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Veículo novo
+                                    </label>
+                                </div>                             
+                                <div class="col-2 form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onclick="javascript: $('#divMsgError5').addClass('d-none');">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Veículo seminovo
+                                    </label>
+                                </div>                               
+                                <div class="col-2 form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" onclick="javascript: $('#divMsgError5').addClass('d-none');">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Não
+                                    </label>
+                                </div>
+                            </div>
+                            <div id="divMsgError5" class="row mb-3 d-none">
+                                <span class="text-danger">
+                                    Por favor selecione uma das opções!
+                                </span>
+                            </div>
+                            <div class="row mb-3 justify-content-center">
+                                <p>Os dados pessoais recolhidos estão sujeitos ao processamento informático para responder à tua solicitação. Estes dados pessoais serão processados por nós, Als Compras, como controlador de dados, conforme descrito na Declaração de Privacidade. </p>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Estou de acordo</button>
+                            </div>
+                            <div class="row mt-5 mb-3">
+                                <div class="col-sm-12 d-flex justify-content-between">
+                                    <button asp-action="VehiclePhoto" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                    <button type="button" onclick="javascript: verifyForm();" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+@section Scripts{
+    <script src="/scripts/vehicleOwnerProfile.js"></script>
+    
+}
+

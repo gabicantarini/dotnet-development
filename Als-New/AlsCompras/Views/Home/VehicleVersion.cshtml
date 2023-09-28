@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "SelecionaVersao";
+}
+
+
+<section class="home-one">
+    <div class="container">
+        <div class="col-lg-10 m-auto">
+            <div class="home_content home1_style">
+                <div class="home-text text-center mb30 d-none d-sm-block">
+                    <h2 class="title" style="color: #5F6973; font-size: 30px"><span class="aminated-object1"></span>OFERTA DE AVALIAÇÃO</h2>
+                </div>
+                <!-- Linha do Tempo -->
+                <nav class="navbar justify-content-center d-block mb-5">
+                    <div class="" id="conteudoNavbarSuportado">
+                        <ul class="nav nav-pills nav-fill">
+                            <li class="nav-item">
+                                1. INFORMAÇÕES SOBRE O VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                2. ESTADO DO VEÍCULO
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                3. PERFIL
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block">
+                                4. A TUA OFERTA
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container col-10">
+                    <div class="mb-3">
+                        <h4>Seleciona a versão do veículo</h4>
+                    </div>
+                    <div class="col-12">
+                        <form id="formSelectColor" action="/Home/vehicleColor" method="post">
+                            <div class="form-row align-items-center">
+                                <div class="row mb-3">
+                                    <div class="col-sm-6 btn-group-toggle" data-toggle="buttons">
+                                        <input type="radio" class="btn-check" name="options" id="option1" value="1.2 TWINPORT 80" autocomplete="off" onclick="javascript: $('#divMsgError').addClass('d-none');">
+                                        <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="option1">1.2 TWINPORT 80</label>
+                                    </div>
+                                    <div class="col-sm-6 btn-group-toggle" data-toggle="buttons">
+                                        <input type="radio" class="btn-check" name="options" id="option2" value="OUTRA" autocomplete="off" onclick="javascript: $('#divMsgError').addClass('d-none');">
+                                        <label class="btn btn-outline-secondary btn-lg w-100 h-100 pt-3" for="option2">OUTRA</label>
+                                    </div>
+                                </div>
+                                <div id="divMsgError" class="row mb-3 d-none">
+                                    <span class="text-danger">
+                                        Erro por favor selecione uma das opções!
+                                    </span>
+                                </div>
+                                <div class="row mt-5 mb-3">
+                                    <div class="col-sm-12 d-flex justify-content-between">
+                                        <button asp-action="PesquisaPorMatriculaNova" class="btn advnc_search_form_btn" style="background-color: #F1D792"><span class="flaticon-left-arrow"></span>PÁGINA ANTERIOR</button>
+                                        <button type="button" onclick="javascript: verifyForm();" class="btn advnc_search_form_btn"><span class="flaticon-right-arrow"></span>PÁGINA SEGUINTE</button>
+                                        <!--<input name="vehicleValuationId" id="vehicleValuationId" hidden />-->
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@section Scripts{
+    <script src="~/scripts/vehicleVersion.js"></script>
+}
+

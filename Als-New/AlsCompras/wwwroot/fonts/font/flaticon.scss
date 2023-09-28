@@ -1,0 +1,273 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?291c5a837339e01867524523b786cd94") format("truetype"),
+url("./flaticon.woff?291c5a837339e01867524523b786cd94") format("woff"),
+url("./flaticon.woff2?291c5a837339e01867524523b786cd94") format("woff2"),
+url("./flaticon.eot?291c5a837339e01867524523b786cd94#iefix") format("embedded-opentype"),
+url("./flaticon.svg?291c5a837339e01867524523b786cd94#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "magnifiying-glass": "\f101",
+    "map": "\f102",
+    "phone-call": "\f103",
+    "clock": "\f104",
+    "upload": "\f105",
+    "download": "\f106",
+    "next": "\f107",
+    "back": "\f108",
+    "gas-station": "\f109",
+    "gear": "\f10a",
+    "road-perspective": "\f10b",
+    "calendar": "\f10c",
+    "heart": "\f10d",
+    "photo-camera": "\f10e",
+    "play-button": "\f10f",
+    "shuffle-arrows": "\f110",
+    "car": "\f111",
+    "price-tag": "\f112",
+    "trust": "\f113",
+    "play": "\f114",
+    "left-arrow": "\f115",
+    "right-arrow": "\f116",
+    "down-arrow": "\f117",
+    "up-arrow": "\f118",
+    "chat": "\f119",
+    "user": "\f11a",
+    "calendar-1": "\f11b",
+    "sedan-car-model": "\f11c",
+    "jeep": "\f11d",
+    "cabrio-car": "\f11e",
+    "coupe-car": "\f11f",
+    "car-black-side-view-pointing-left": "\f120",
+    "car-1": "\f121",
+    "car-2": "\f122",
+    "high-five": "\f123",
+    "megaphone": "\f124",
+    "headphones": "\f125",
+    "shield": "\f126",
+    "user-1": "\f127",
+    "cogwheel": "\f128",
+    "location": "\f129",
+    "clock-1": "\f12a",
+    "eye": "\f12b",
+    "email": "\f12c",
+    "printer": "\f12d",
+    "share": "\f12e",
+    "phone-receiver-silhouette": "\f12f",
+    "location-pin": "\f130",
+    "coin": "\f131",
+    "profit-report": "\f132",
+    "whatsapp": "\f133",
+    "dashboard": "\f134",
+    "user-2": "\f135",
+    "list": "\f136",
+    "plus": "\f137",
+    "message": "\f138",
+    "logout": "\f139",
+    "view": "\f13a",
+    "pen": "\f13b",
+    "trash": "\f13c",
+    "bell": "\f13d",
+    "heart-1": "\f13e",
+);
+
+.flaticon-magnifiying-glass:before {
+    content: map-get($flaticon-map, "magnifiying-glass");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon-map, "phone-call");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon-map, "clock");
+}
+.flaticon-upload:before {
+    content: map-get($flaticon-map, "upload");
+}
+.flaticon-download:before {
+    content: map-get($flaticon-map, "download");
+}
+.flaticon-next:before {
+    content: map-get($flaticon-map, "next");
+}
+.flaticon-back:before {
+    content: map-get($flaticon-map, "back");
+}
+.flaticon-gas-station:before {
+    content: map-get($flaticon-map, "gas-station");
+}
+.flaticon-gear:before {
+    content: map-get($flaticon-map, "gear");
+}
+.flaticon-road-perspective:before {
+    content: map-get($flaticon-map, "road-perspective");
+}
+.flaticon-calendar:before {
+    content: map-get($flaticon-map, "calendar");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-photo-camera:before {
+    content: map-get($flaticon-map, "photo-camera");
+}
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
+.flaticon-shuffle-arrows:before {
+    content: map-get($flaticon-map, "shuffle-arrows");
+}
+.flaticon-car:before {
+    content: map-get($flaticon-map, "car");
+}
+.flaticon-price-tag:before {
+    content: map-get($flaticon-map, "price-tag");
+}
+.flaticon-trust:before {
+    content: map-get($flaticon-map, "trust");
+}
+.flaticon-play:before {
+    content: map-get($flaticon-map, "play");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon-map, "down-arrow");
+}
+.flaticon-up-arrow:before {
+    content: map-get($flaticon-map, "up-arrow");
+}
+.flaticon-chat:before {
+    content: map-get($flaticon-map, "chat");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-calendar-1:before {
+    content: map-get($flaticon-map, "calendar-1");
+}
+.flaticon-sedan-car-model:before {
+    content: map-get($flaticon-map, "sedan-car-model");
+}
+.flaticon-jeep:before {
+    content: map-get($flaticon-map, "jeep");
+}
+.flaticon-cabrio-car:before {
+    content: map-get($flaticon-map, "cabrio-car");
+}
+.flaticon-coupe-car:before {
+    content: map-get($flaticon-map, "coupe-car");
+}
+.flaticon-car-black-side-view-pointing-left:before {
+    content: map-get($flaticon-map, "car-black-side-view-pointing-left");
+}
+.flaticon-car-1:before {
+    content: map-get($flaticon-map, "car-1");
+}
+.flaticon-car-2:before {
+    content: map-get($flaticon-map, "car-2");
+}
+.flaticon-high-five:before {
+    content: map-get($flaticon-map, "high-five");
+}
+.flaticon-megaphone:before {
+    content: map-get($flaticon-map, "megaphone");
+}
+.flaticon-headphones:before {
+    content: map-get($flaticon-map, "headphones");
+}
+.flaticon-shield:before {
+    content: map-get($flaticon-map, "shield");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon-map, "user-1");
+}
+.flaticon-cogwheel:before {
+    content: map-get($flaticon-map, "cogwheel");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
+.flaticon-clock-1:before {
+    content: map-get($flaticon-map, "clock-1");
+}
+.flaticon-eye:before {
+    content: map-get($flaticon-map, "eye");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-printer:before {
+    content: map-get($flaticon-map, "printer");
+}
+.flaticon-share:before {
+    content: map-get($flaticon-map, "share");
+}
+.flaticon-phone-receiver-silhouette:before {
+    content: map-get($flaticon-map, "phone-receiver-silhouette");
+}
+.flaticon-location-pin:before {
+    content: map-get($flaticon-map, "location-pin");
+}
+.flaticon-coin:before {
+    content: map-get($flaticon-map, "coin");
+}
+.flaticon-profit-report:before {
+    content: map-get($flaticon-map, "profit-report");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-dashboard:before {
+    content: map-get($flaticon-map, "dashboard");
+}
+.flaticon-user-2:before {
+    content: map-get($flaticon-map, "user-2");
+}
+.flaticon-list:before {
+    content: map-get($flaticon-map, "list");
+}
+.flaticon-plus:before {
+    content: map-get($flaticon-map, "plus");
+}
+.flaticon-message:before {
+    content: map-get($flaticon-map, "message");
+}
+.flaticon-logout:before {
+    content: map-get($flaticon-map, "logout");
+}
+.flaticon-view:before {
+    content: map-get($flaticon-map, "view");
+}
+.flaticon-pen:before {
+    content: map-get($flaticon-map, "pen");
+}
+.flaticon-trash:before {
+    content: map-get($flaticon-map, "trash");
+}
+.flaticon-bell:before {
+    content: map-get($flaticon-map, "bell");
+}
+.flaticon-heart-1:before {
+    content: map-get($flaticon-map, "heart-1");
+}
