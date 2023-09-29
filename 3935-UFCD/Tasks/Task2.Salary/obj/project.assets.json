@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\3935-UFCD\\Tasks\\ConsoleApp1\\Task1.Rectangle.csproj",
-      "projectName": "Task1.Rectangle",
-      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\3935-UFCD\\Tasks\\ConsoleApp1\\Task1.Rectangle.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\3935-UFCD\\Tasks\\Task2.Salary\\Task2.Salary.csproj",
+      "projectName": "Task2.Salary",
+      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\3935-UFCD\\Tasks\\Task2.Salary\\Task2.Salary.csproj",
       "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\3935-UFCD\\Tasks\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\3935-UFCD\\Tasks\\Task2.Salary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
