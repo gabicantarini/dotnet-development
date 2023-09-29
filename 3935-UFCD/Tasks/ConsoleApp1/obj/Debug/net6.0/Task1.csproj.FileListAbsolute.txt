@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\bin\Debug\net6.0\Task1.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\bin\Debug\net6.0\Task1.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\bin\Debug\net6.0\Task1.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\bin\Debug\net6.0\Task1.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\bin\Debug\net6.0\Task1.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\refint\Task1.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\Task1.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ConsoleApp1\obj\Debug\net6.0\ref\Task1.dll
