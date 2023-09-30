@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\bin\Debug\net6.0\Task4.Pythagoras.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\bin\Debug\net6.0\Task4.Pythagoras.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\bin\Debug\net6.0\Task4.Pythagoras.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\bin\Debug\net6.0\Task4.Pythagoras.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\bin\Debug\net6.0\Task4.Pythagoras.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\refint\Task4.Pythagoras.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\Task4.Pythagoras.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task4.Pythagoras\obj\Debug\net6.0\ref\Task4.Pythagoras.dll
