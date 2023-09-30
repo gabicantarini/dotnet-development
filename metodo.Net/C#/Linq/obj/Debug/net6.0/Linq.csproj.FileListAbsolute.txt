@@ -1,0 +1,5 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Linq\obj\Debug\net6.0\Linq.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Linq\obj\Debug\net6.0\Linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Linq\obj\Debug\net6.0\Linq.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Linq\obj\Debug\net6.0\Linq.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\Linq\obj\Debug\net6.0\Linq.csproj.CoreCompileInputs.cache
