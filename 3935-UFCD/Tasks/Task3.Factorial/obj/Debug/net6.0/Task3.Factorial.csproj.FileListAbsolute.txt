@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\bin\Debug\net6.0\Task3.Factorial.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\bin\Debug\net6.0\Task3.Factorial.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\bin\Debug\net6.0\Task3.Factorial.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\bin\Debug\net6.0\Task3.Factorial.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\bin\Debug\net6.0\Task3.Factorial.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\refint\Task3.Factorial.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\Task3.Factorial.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task3.Factorial\obj\Debug\net6.0\ref\Task3.Factorial.dll

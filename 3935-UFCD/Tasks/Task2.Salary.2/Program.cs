@@ -28,7 +28,7 @@ class Program
         }
         else if (salary > 1500)
         {            
-            Console.WriteLine($"\nO salário líquido é: ${salary18:F}");
+            Console.WriteLine($"\nO salário líquido é: ${salary15:F}");
         }
         else
         {
