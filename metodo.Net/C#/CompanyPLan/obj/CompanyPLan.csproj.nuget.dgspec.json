@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\StudentGrade.csproj": {}
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\CompanyPLan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\StudentGrade.csproj": {
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\CompanyPLan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\StudentGrade.csproj",
-        "projectName": "StudentGrade",
-        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\StudentGrade.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\CompanyPLan.csproj",
+        "projectName": "CompanyPLan",
+        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\CompanyPLan.csproj",
         "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
