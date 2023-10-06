@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\C#.csproj",
-      "projectName": "C#",
-      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\C#.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\studentGrade.csproj",
+      "projectName": "studentGrade",
+      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\studentGrade.csproj",
       "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\C#\\obj\\",
       "projectStyle": "PackageReference",
