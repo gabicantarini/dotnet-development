@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\CompanyPLan.csproj",
-      "projectName": "CompanyPLan",
-      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\CompanyPLan.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\Switch_Case_CompanyPLan.csproj",
+      "projectName": "Switch_Case_CompanyPLan",
+      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\Switch_Case_CompanyPLan.csproj",
       "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\C#\\CompanyPLan\\obj\\",
       "projectStyle": "PackageReference",
