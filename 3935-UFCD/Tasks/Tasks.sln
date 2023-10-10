@@ -9,9 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2.Salary", "Task2.Salar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2.Salary.2", "Task2.Salary.2\Task2.Salary.2.csproj", "{7AC39329-1A74-4196-8C60-23AF4C77C2FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3.Factorial", "Task3.Factorial\Task3.Factorial.csproj", "{8084C103-B3FA-44D5-989A-C0F247F93B63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3.Factorial", "Task3.Factorial\Task3.Factorial.csproj", "{8084C103-B3FA-44D5-989A-C0F247F93B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3.Factorial.2", "Task3.Factorial.2\Task3.Factorial.2.csproj", "{3288615C-5650-45FC-9189-2E26F4BB60C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task3.Factorial.2", "Task3.Factorial.2\Task3.Factorial.2.csproj", "{3288615C-5650-45FC-9189-2E26F4BB60C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task4.Pythagoras", "Task4.Pythagoras\Task4.Pythagoras.csproj", "{64DA5832-BCDA-4D8D-9391-23810DD04649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5.CountWord", "CountWord\Task5.CountWord.csproj", "{A2F6E185-553E-4BB8-9876-1CFDD302C7E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{3288615C-5650-45FC-9189-2E26F4BB60C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3288615C-5650-45FC-9189-2E26F4BB60C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3288615C-5650-45FC-9189-2E26F4BB60C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DA5832-BCDA-4D8D-9391-23810DD04649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DA5832-BCDA-4D8D-9391-23810DD04649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DA5832-BCDA-4D8D-9391-23810DD04649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DA5832-BCDA-4D8D-9391-23810DD04649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F6E185-553E-4BB8-9876-1CFDD302C7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F6E185-553E-4BB8-9876-1CFDD302C7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F6E185-553E-4BB8-9876-1CFDD302C7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F6E185-553E-4BB8-9876-1CFDD302C7E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
