@@ -25,7 +25,15 @@ namespace DateTimeFormat
 
             }
 
+            Console.WriteLine("Diferentes maneiras de formatar manualmente.");
+            Console.WriteLine($"Data no fomrato d: {now:d}");
+            Console.WriteLine($"Data no fomrato MM-dd-yyyy: {now:MM-dd-yyyy}");
+            var dateFormat = now.ToString("MM-dd-yyyy");
+            var dateFormatBr = now.ToString("MM/dd/yyyy HH:mm:ss");
+
             #endregion DataTime Formatação
+
+            Console.ReadKey();
         }
 
     }
