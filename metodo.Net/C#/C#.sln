@@ -17,11 +17,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Array.Lists", "Array.Lists\Array.Lists.csproj", "{84C438AD-0031-49F9-BC22-44E9E065C773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{B42A9831-AC93-481A-8861-741C9AE4510E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linq", "Linq\Linq.csproj", "{B42A9831-AC93-481A-8861-741C9AE4510E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeMethods", "DateTimeMethods\DateTimeMethods.csproj", "{6C581639-A15F-40D6-9F32-D54CD64EB770}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFormat", "DateTimeFormat\DateTimeFormat.csproj", "{83978F85-7B96-4F12-AC6B-1A532E6A47EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryWorks", "DirectoryWorks\DirectoryWorks.csproj", "{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{83978F85-7B96-4F12-AC6B-1A532E6A47EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83978F85-7B96-4F12-AC6B-1A532E6A47EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83978F85-7B96-4F12-AC6B-1A532E6A47EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
