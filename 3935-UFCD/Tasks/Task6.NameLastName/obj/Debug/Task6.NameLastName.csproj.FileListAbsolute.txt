@@ -1,0 +1,7 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\bin\Debug\Task6.NameLastName.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\bin\Debug\Task6.NameLastName.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\bin\Debug\Task6.NameLastName.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\obj\Debug\Task6.NameLastName.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\obj\Debug\Task6.NameLastName.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\obj\Debug\Task6.NameLastName.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\Task6.NameLastName\obj\Debug\Task6.NameLastName.pdb
