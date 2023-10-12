@@ -45,6 +45,40 @@ namespace DataStructure
             Console.WriteLine($"Atendido: {atendido}");
             Console.WriteLine($"Próximo da fila: {filaAtendimento.Peek()}");
 
+            //Matriz
+
+            Console.WriteLine("Notas id array 1 dimensão:\n");
+            int[] notasID = new int[2]; // array em uma dimensão com índice 0 => 85 e indice 1 => 90
+
+            notasID[0] = 85;
+            notasID[1] = 90;
+
+            for (var i = 0; i < notasID.Length; i++)
+            {
+                Console.WriteLine($"Notas id array 1 dimensão: {notasID[i]}");
+            }
+
+            Console.WriteLine("Notas array 2 dimensões:\n");
+
+            int[,] notas2d = new int[3, 2]; //array em duas dimensões 
+
+            notas2d[0, 0] = 85;  //A, Primeiro Bimestre
+            notas2d[0, 1] = 90;  //A, Segundo Bimestre
+            notas2d[1, 0] = 55;  //B, Primeiro Bimestre
+            notas2d[1, 1] = 100; //B, Segundo Bimestre
+            notas2d[2, 0] = 60;  //C, Primeiro Bimestre
+            notas2d[2, 2] = 90;  //C, Segundo Bimestre
+
+
+            for (var i = 0; i < notas2d.GetLength(0); i++) //GetLength(0) => percorre a primeira dimensão
+            {
+                Console.WriteLine($"Notas array 2 dimensões: {i}");
+                for (var j = 0; j < notas2d.GetLength(1); j++) //GetLength(1) => percorre a segunda dimensão
+                {
+                    Console.WriteLine($"Notas array 2 dimensões: {notas2d[i, j]}");
+                }
+                Console.WriteLine();
+            }
 
             Console.ReadLine();
         }
