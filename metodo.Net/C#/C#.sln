@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeFormat", "DateTimeF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryWorks", "DirectoryWorks\DirectoryWorks.csproj", "{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStructure", "FileStructure\FileStructure.csproj", "{205CFA86-41FB-4FE3-927A-92B9AF03077B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC58118F-FA10-442C-82CB-4E7C6B6AF40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{205CFA86-41FB-4FE3-927A-92B9AF03077B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{205CFA86-41FB-4FE3-927A-92B9AF03077B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{205CFA86-41FB-4FE3-927A-92B9AF03077B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{205CFA86-41FB-4FE3-927A-92B9AF03077B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
