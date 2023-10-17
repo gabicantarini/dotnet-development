@@ -1,5 +1,9 @@
 ﻿using DevFreela.API.Models;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace DevFreela.API.Controllers
 {
@@ -10,34 +14,25 @@ namespace DevFreela.API.Controllers
         {
 
         }
-
-        //api/users/1
+        // api/users/1
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
             return Ok();
         }
 
-        //api/users
+        // api/users
         [HttpPost]
         public IActionResult Post([FromBody] CreateUserModel createUserModel)
         {
-            return NoContent();
+            return CreatedAtAction(nameof(GetById), new { id = 1 }, createUserModel);
         }
 
+        // api/users/1/login
         [HttpPut("{id}/login")]
         public IActionResult Login(int id, [FromBody] LoginModel login)
         {
             return NoContent();
         }
-
     }
-    
-
 }
-
-
-
-
-
-
