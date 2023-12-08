@@ -1,0 +1,7 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\bin\Debug\ContarNumero.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\bin\Debug\ContarNumero.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\bin\Debug\ContarNumero.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\obj\Debug\ContarNumero.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\obj\Debug\ContarNumero.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\obj\Debug\ContarNumero.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\ContarNumero\obj\Debug\ContarNumero.pdb
