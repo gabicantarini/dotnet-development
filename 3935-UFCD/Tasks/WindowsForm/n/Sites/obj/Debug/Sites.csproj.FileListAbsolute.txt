@@ -1,0 +1,30 @@
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\bin\Debug\Sites.exe.config
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\bin\Debug\Sites.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\bin\Debug\Sites.pdb
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.csproj.AssemblyReference.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.Form1.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.Properties.Resources.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.csproj.GenerateResource.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.csproj.CoreCompileInputs.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Sites\obj\Debug\Sites.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\bin\Debug\Sites.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\bin\Debug\Sites.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\bin\Debug\Sites.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.Form1.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.Properties.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.csproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\Sites\obj\Debug\Sites.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\bin\Debug\Sites.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\bin\Debug\Sites.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\bin\Debug\Sites.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.Form1.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.Properties.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.csproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Sites\obj\Debug\Sites.pdb

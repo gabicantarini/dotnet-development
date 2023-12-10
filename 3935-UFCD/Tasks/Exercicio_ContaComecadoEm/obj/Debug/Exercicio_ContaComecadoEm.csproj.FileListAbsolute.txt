@@ -1,0 +1,7 @@
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\bin\Debug\Exercicio_ContaComecadoEm.exe.config
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\bin\Debug\Exercicio_ContaComecadoEm.exe
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\bin\Debug\Exercicio_ContaComecadoEm.pdb
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\obj\Debug\Exercicio_ContaComecadoEm.csproj.AssemblyReference.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\obj\Debug\Exercicio_ContaComecadoEm.csproj.CoreCompileInputs.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\obj\Debug\Exercicio_ContaComecadoEm.exe
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_ContaComecadoEm\obj\Debug\Exercicio_ContaComecadoEm.pdb

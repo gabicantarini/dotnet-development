@@ -1,0 +1,10 @@
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\bin\Debug\Formatos.exe.config
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\bin\Debug\Formatos.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\bin\Debug\Formatos.pdb
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.csproj.AssemblyReference.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.Form1.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.Properties.Resources.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.csproj.GenerateResource.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.csproj.CoreCompileInputs.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Formatos\obj\Debug\Formatos.pdb

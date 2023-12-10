@@ -1,0 +1,7 @@
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\bin\Debug\Exercicio_10_NomesContaLetra.exe.config
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\bin\Debug\Exercicio_10_NomesContaLetra.exe
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\bin\Debug\Exercicio_10_NomesContaLetra.pdb
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\obj\Debug\Exercicio_10_NomesContaLetra.csproj.AssemblyReference.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\obj\Debug\Exercicio_10_NomesContaLetra.csproj.CoreCompileInputs.cache
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\obj\Debug\Exercicio_10_NomesContaLetra.exe
+C:\Users\miche\Documents\Educação\Técnico  - Programação\Programação - Alcoitão\3935 - Programação em C# - Adriano Marques\CODE\Exercícios\Exercicio_10_NomesContaLetra\obj\Debug\Exercicio_10_NomesContaLetra.pdb

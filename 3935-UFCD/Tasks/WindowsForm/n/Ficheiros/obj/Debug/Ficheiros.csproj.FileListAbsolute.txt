@@ -1,0 +1,20 @@
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\bin\Debug\Ficheiros.exe.config
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\bin\Debug\Ficheiros.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\bin\Debug\Ficheiros.pdb
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.csproj.AssemblyReference.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.Form1.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.Properties.Resources.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.csproj.GenerateResource.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.csproj.CoreCompileInputs.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Ficheiros\obj\Debug\Ficheiros.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\bin\Debug\Ficheiros.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\bin\Debug\Ficheiros.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\bin\Debug\Ficheiros.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.Form1.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.Properties.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.csproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\Ficheiros\obj\Debug\Ficheiros.pdb

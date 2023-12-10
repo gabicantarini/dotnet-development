@@ -1,0 +1,10 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.Form1.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.Properties.Resources.resources
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.csproj.GenerateResource.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\bin\Debug\FicheiroComTexto.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\bin\Debug\FicheiroComTexto.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\bin\Debug\FicheiroComTexto.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\WindowsForm\n\FicheiroComTexto\obj\Debug\FicheiroComTexto.pdb

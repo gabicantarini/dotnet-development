@@ -1,0 +1,10 @@
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.csproj.AssemblyReference.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.Form1.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.Properties.Resources.resources
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.csproj.GenerateResource.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.csproj.CoreCompileInputs.cache
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\bin\Debug\Datas.exe.config
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\bin\Debug\Datas.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\bin\Debug\Datas.pdb
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.exe
+D:\Trabalhos 3935\TarefaWindowsForms\Datas\obj\Debug\Datas.pdb

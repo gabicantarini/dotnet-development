@@ -1,0 +1,7 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\bin\Debug\MaiorMenorQue.exe.config
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\bin\Debug\MaiorMenorQue.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\bin\Debug\MaiorMenorQue.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\obj\Debug\MaiorMenorQue.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\obj\Debug\MaiorMenorQue.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\obj\Debug\MaiorMenorQue.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\3935-UFCD\Tasks\MaiorMenorQue\obj\Debug\MaiorMenorQue.pdb
