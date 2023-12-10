@@ -1,0 +1,15 @@
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\bin\Debug\net7.0\LuisDev.Reflections.exe
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\bin\Debug\net7.0\LuisDev.Reflections.deps.json
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\bin\Debug\net7.0\LuisDev.Reflections.runtimeconfig.json
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\bin\Debug\net7.0\LuisDev.Reflections.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\bin\Debug\net7.0\LuisDev.Reflections.pdb
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.csproj.AssemblyReference.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.AssemblyInfoInputs.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.AssemblyInfo.cs
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.csproj.CoreCompileInputs.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\refint\LuisDev.Reflections.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.pdb
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\LuisDev.Reflections.genruntimeconfig.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Reflections\obj\Debug\net7.0\ref\LuisDev.Reflections.dll

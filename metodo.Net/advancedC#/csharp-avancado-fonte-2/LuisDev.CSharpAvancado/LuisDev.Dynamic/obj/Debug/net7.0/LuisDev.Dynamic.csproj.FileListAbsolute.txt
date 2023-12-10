@@ -1,0 +1,17 @@
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.csproj.AssemblyReference.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.AssemblyInfoInputs.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.AssemblyInfo.cs
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.csproj.CoreCompileInputs.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\bin\Debug\net7.0\LuisDev.Dynamic.exe
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\bin\Debug\net7.0\LuisDev.Dynamic.deps.json
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\bin\Debug\net7.0\LuisDev.Dynamic.runtimeconfig.json
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\bin\Debug\net7.0\LuisDev.Dynamic.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\bin\Debug\net7.0\LuisDev.Dynamic.pdb
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\refint\LuisDev.Dynamic.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.pdb
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.genruntimeconfig.cache
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\ref\LuisDev.Dynamic.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\projetos\aulas-ministradas\LuisDev.TPL\LuisDev.Dynamic\obj\Debug\net7.0\LuisDev.Dynamic.csproj.CopyComplete

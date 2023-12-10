@@ -1,7 +1,0 @@
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\bin\Debug\DataStructure.exe.config
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\bin\Debug\DataStructure.exe
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\bin\Debug\DataStructure.pdb
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\obj\Debug\DataStructure.csproj.AssemblyReference.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\obj\Debug\DataStructure.csproj.CoreCompileInputs.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\obj\Debug\DataStructure.exe
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\DataStructure\DataStructure\obj\Debug\DataStructure.pdb

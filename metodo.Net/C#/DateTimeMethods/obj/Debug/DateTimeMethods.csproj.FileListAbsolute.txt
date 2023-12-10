@@ -1,7 +1,0 @@
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\bin\Debug\DateTimeMethods.exe.config
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\bin\Debug\DateTimeMethods.exe
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\bin\Debug\DateTimeMethods.pdb
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\obj\Debug\DateTimeMethods.csproj.AssemblyReference.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\obj\Debug\DateTimeMethods.csproj.CoreCompileInputs.cache
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\obj\Debug\DateTimeMethods.exe
-C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\C#\DateTimeMethods\obj\Debug\DateTimeMethods.pdb
