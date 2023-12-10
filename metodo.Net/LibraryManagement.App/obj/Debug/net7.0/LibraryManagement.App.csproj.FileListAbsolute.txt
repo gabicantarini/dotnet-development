@@ -1,0 +1,14 @@
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.AssemblyInfoInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.AssemblyInfo.cs
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.csproj.CoreCompileInputs.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\bin\Debug\net7.0\LibraryManagement.App.exe
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\bin\Debug\net7.0\LibraryManagement.App.deps.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\bin\Debug\net7.0\LibraryManagement.App.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\bin\Debug\net7.0\LibraryManagement.App.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\bin\Debug\net7.0\LibraryManagement.App.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\refint\LibraryManagement.App.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\LibraryManagement.App.genruntimeconfig.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\LibraryManagement.App\obj\Debug\net7.0\ref\LibraryManagement.App.dll
