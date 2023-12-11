@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.App.Model
 {
-    internal class BookClass
+    internal class Book
     {
         public int Id { get; private set; }
         public string Title { get; set; }
@@ -16,7 +16,7 @@ namespace LibraryManagement.App.Model
         public int PublishYear { get; set; }
 
 
-        private List<BookClass> _books = new List<BookClass>();
+        private List<Book> _books = new List<Book>();
 
         public void PressKey()
         {

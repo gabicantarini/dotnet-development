@@ -2,12 +2,12 @@
 using System.ComponentModel.Design;
 
 
-BookClass book = new BookClass();
-UserClass user = new UserClass();
+Book book = new Book();
+User user = new User();
 
 while (true)
 {
-    Console.WriteLine("********************MENU INICIAL DE GERENCIAMENTO DE LIVROS************************");
+    Console.WriteLine("********************MENU INICIAL DE GERENCIAMENTO DE LIVROS************************\n");
     Console.WriteLine("1. Cadastrar livro: ");
     //validar dados
     Console.WriteLine("2. Consultar todos os livros: ");
