@@ -16,7 +16,7 @@ namespace LibraryManagement.App.Model
         public int PublishYear { get; set; }
 
 
-        private List<Book> _books = new List<Book>();
+       public List<Book> books = new List<Book>();
 
         public void PressKey()
         {
@@ -27,19 +27,39 @@ namespace LibraryManagement.App.Model
 
         public void BookRegister()
         {
+            Book book = new Book();
             Console.Clear();
-            Console.WriteLine("******CADASTRAR UM LIVRO******");
+            Console.WriteLine("******CADASTRAR UM LIVRO******\n");
+            Console.Write("Digite o Id do livro a cadastrar: ");
+            book.Id = int.Parse(Console.ReadLine()!);
 
+            Console.Write("Digite o título do livro a cadastrar: ");
+            book.Title = Console.ReadLine();
 
+            Console.Write("Digite o nome do autor do livro a cadastrar: "); 
+            book.Author = Console.ReadLine();
 
+            Console.Write("Digite o isbn do livro a cadastrar: ");
+            book.Isbn = Console.ReadLine();
+
+            Console.Write("Digite o ano de publicação do livro a cadastrar: ");
+            book.PublishYear = int.Parse(Console.ReadLine()!);
         }
 
         public void BookConsult()
         {
             Console.Clear();
             Console.WriteLine("******CONSULTAR UM LIVRO******");
+            foreach (var book in books)
+            {
+                Console.WriteLine($"Id: {book.Id}");
+                Console.WriteLine($"Título: {book.Title}");
+                Console.WriteLine($"Autor: {book.Author}");
+                Console.WriteLine($"ISBN: {book.Isbn}");
+                Console.WriteLine($"Ano de publicação: {book.PublishYear}\n");
+            };
 
-
+            //PressKey();
 
         }
 
@@ -51,10 +71,6 @@ namespace LibraryManagement.App.Model
 
         }
 
-        internal void RemoveBook()
-        {
-            throw new NotImplementedException();
-        }
     }
 
 
