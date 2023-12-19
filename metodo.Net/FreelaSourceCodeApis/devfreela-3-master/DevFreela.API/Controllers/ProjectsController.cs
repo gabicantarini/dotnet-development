@@ -30,7 +30,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects/2
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public IActionResult GetById(int id) // consulta com parâmetro de url id
         {
             // Buscar o projeto
 
@@ -40,13 +40,23 @@ namespace DevFreela.API.Controllers
         }
 
         [HttpPost]
+
+        //[from body] é uma anotação que retorna o corpo da requisição
+        //CreateProjectModel é um objeto do corpo da requisição
         public IActionResult Post([FromBody] CreateProjectModel createProject)
         {
-            if (createProject.Title.Length > 50)
+            // o post retorna a informação pro frontend
+            
+            if (createProject.Title.Length > 50) //validação para que o título não seja maior que 50
             {
+                // o post retorna bad request quando não cumpre a validação 
                 return BadRequest();
             }
 
+            // Se cumprir a validação, o post retorna o o código 201 através do método CreatedAtAction() que por default espera receber 3 parametros
+            // 1 parametro retorna o nome da API com os detalhes = nameof(GetById)
+            // 2 parametro retorna o ID do objeto que acabou de ser cadastrado =  new { id = createProject.Id }
+            // 3 parametro retorna o objeto cadastrado =  createProject
             // Cadastrar o projeto
 
             return CreatedAtAction(nameof(GetById), new { id = createProject.Id }, createProject);

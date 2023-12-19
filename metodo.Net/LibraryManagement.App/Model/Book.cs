@@ -8,6 +8,19 @@ namespace LibraryManagement.App.Model
 {
     internal class Book
     {
+        public Book(int id, string title, string author, string isbn, int publishYear) {
+
+            Id = id;
+            Title = title;
+            Author = author;
+            Isbn = isbn;
+            PublishYear = publishYear;
+        }
+
+        public Book()
+        {
+        }
+
         public int Id { get; private set; }
         public string Title { get; set; }
 
@@ -32,6 +45,7 @@ namespace LibraryManagement.App.Model
             Console.WriteLine("******CADASTRAR UM LIVRO******\n");
             Console.Write("Digite o Id do livro a cadastrar: ");
             book.Id = int.Parse(Console.ReadLine()!);
+            //book.Id = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Digite o título do livro a cadastrar: ");
             book.Title = Console.ReadLine();
@@ -44,6 +58,7 @@ namespace LibraryManagement.App.Model
 
             Console.Write("Digite o ano de publicação do livro a cadastrar: ");
             book.PublishYear = int.Parse(Console.ReadLine()!);
+            //book.PublishYear = Convert.ToInt32(Console.ReadLine());
         }
 
         public void BookConsult()
@@ -59,7 +74,7 @@ namespace LibraryManagement.App.Model
                 Console.WriteLine($"Ano de publicação: {book.PublishYear}\n");
             };
 
-            //PressKey();
+            PressKey();
 
         }
 
