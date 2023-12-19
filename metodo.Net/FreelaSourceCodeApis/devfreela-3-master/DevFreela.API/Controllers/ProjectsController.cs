@@ -40,9 +40,7 @@ namespace DevFreela.API.Controllers
         }
 
         [HttpPost]
-
-        //[from body] é uma anotação que retorna o corpo da requisição
-        //CreateProjectModel é um objeto do corpo da requisição
+        //o post retorna uma anotação com o corpo da requisição [from body] com o objeto da CreateProjectModel (q tem o id, o titulo e a description)
         public IActionResult Post([FromBody] CreateProjectModel createProject)
         {
             // o post retorna a informação pro frontend
@@ -62,8 +60,9 @@ namespace DevFreela.API.Controllers
             return CreatedAtAction(nameof(GetById), new { id = createProject.Id }, createProject);
         }
 
-        // api/projects/2
+        // api/projects/2 - Ex: vai atualizar o objeto com o id
         [HttpPut("{id}")]
+        // o put retorna uma anotação com o corpo da requisição [from body] com o objeto da UpdateProjectModel (que só tem a descrição)
         public IActionResult Put(int id, [FromBody] UpdateProjectModel updateProject)
         {
             if (updateProject.Description.Length > 200)
@@ -71,8 +70,7 @@ namespace DevFreela.API.Controllers
                 return BadRequest();
             }
 
-            // Atualizo o objeto
-
+            // reotrno padrão do put é NoContent() que atualiza o objeto
             return NoContent();
         }
 
