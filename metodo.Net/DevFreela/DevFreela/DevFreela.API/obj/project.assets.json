@@ -91,7 +91,7 @@
       },
       "DevFreela.Core/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/DevFreela.Core.dll": {}
         },
