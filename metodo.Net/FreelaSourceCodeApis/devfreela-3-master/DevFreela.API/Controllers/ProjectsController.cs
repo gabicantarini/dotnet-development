@@ -21,7 +21,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects?query=net core
         [HttpGet]
-        public IActionResult Get(string query)
+        public IActionResult Get(string query)//query é um parâmetro para consulta
         {
             // Buscar todos ou filtrar
 
