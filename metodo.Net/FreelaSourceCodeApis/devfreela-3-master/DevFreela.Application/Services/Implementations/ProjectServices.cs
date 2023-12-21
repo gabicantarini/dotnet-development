@@ -10,10 +10,10 @@ namespace DevFreela.Application.Services.Implementations
 {
     public class ProjectServices : IProjectService
     {
-        private readonly IProjectService _dbContext; //para que não seja alterado
-        public ProjectServices(DevFreelaDbContext dbContext) 
-        { 
-        }
+        //private readonly IProjectService _dbContext; //para que não seja alterado
+        //public ProjectServices(DevFreelaDbContext dbContext) 
+        //{ 
+        //}
         public int Create(NewProjectInputModel inputModel)
         {
             throw new NotImplementedException();
