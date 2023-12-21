@@ -1,35 +1,38 @@
 ﻿using bloodDonation.Models;
 using Microsoft.AspNetCore.Mvc;
+using Swashbuckle.AspNetCore.SwaggerGen;
 
 namespace bloodDonation.Controllers
 {
     [Route("api/bloodDonation")]
     public class DonatorController : ControllerBase
     {
-        [HttpGet("{id}")]
+        [HttpGet("{id}")] //Consult
         public IActionResult GetById(int id) //consult
         {
             return Ok();
         }
-
-        [HttpPost]
-        public IActionResult Post([FromBody] CreateDonatorModel createDonator) //Cria
+                
+        [HttpPost] //create
+        public IActionResult Post([FromBody] CreateDonator createDonator) //Cria
         {
-            //improve latter data validation like Address
-            if(createDonator.Name.Length > 20)
-            {
-                return BadRequest();
-            }
 
-            return CreatedAtAction(nameof(GetById), new { id = createDonator.ID, createDonator });
+
+            return CreatedAtAction(nameof(GetById), new { id = createDonator.Id, createDonator });
         }
 
-        [HttpPut]
+
+        [HttpPut("{id}")] //update
 
         public IActionResult Put(int id)
         {
             return NoContent();
         }
 
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            return NoContent();
+        }
     }
 }
