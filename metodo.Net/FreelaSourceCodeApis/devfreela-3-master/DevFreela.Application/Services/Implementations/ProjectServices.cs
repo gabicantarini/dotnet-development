@@ -38,12 +38,17 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
 
         public void Finish(int id)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException(); //add method
         }
 
         public List<ProjectViewModel> GetAll(string query)
         {
-            throw new NotImplementedException();
+            var projects = _dbContext.Projects;
+
+            var projectViewModel = projects
+                .Select(p => new ProjectViewModel(p.Title, p.CreatedAt))
+                .ToList();
+            return projectViewModel;
         }
 
         public ProjectDetailsViewModel GetById(int id)
