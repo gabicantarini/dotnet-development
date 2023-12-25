@@ -10,9 +10,9 @@ namespace DevFreela.Infraestructure.Persistence
         {
             Projects = new List<Project>
             {
-                new Project("Meu Projeto ASPNET CORE 1", "Minha Descrição de Projeto 1", 1, 1, 10000),
-                new Project("Meu Projeto ASPNET CORE 2", "Minha Descrição de Projeto 2", 1, 1, 20000),
-                new Project("Meu Projeto ASPNET CORE 3", "Minha Descrição de Projeto 3", 1, 1, 30000),
+                new Project("Meu Projeto ASPNET CORE 1", "Descrição de Projeto 1", 1, 1, 10000),
+                new Project("Meu Projeto ASPNET CORE 2", "Descrição de Projeto 2", 1, 1, 20000),
+                new Project("Meu Projeto ASPNET CORE 3", "Descrição de Projeto 3", 1, 1, 30000),
                
             };
 
@@ -29,14 +29,21 @@ namespace DevFreela.Infraestructure.Persistence
                 new Skill("SQL Server"),
                 new Skill(".Net 5"),
             };
-        }
 
+            Comments = new List<ProjectComment>
+            {
+                new ProjectComment("Projeto criado para introdução", 1, 1),
+                new ProjectComment("Projeto intermediário", 1, 1),
+                new ProjectComment("Projeto avançado", 1, 1),
+            };
+        }
 
 
 
         public List<Project> Projects { get; set; }//será um banco de dados em memória
         public List<User> Users { get; set; }
         public List<Skill> Skills { get; set; }
+        public List<ProjectComment> Comments { get; set; }
     }
 }
 

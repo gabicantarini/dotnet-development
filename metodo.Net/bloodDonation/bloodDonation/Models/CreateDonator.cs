@@ -2,7 +2,7 @@
 {
     public class CreateDonator : BaseEntity
     {
-        public CreateDonator(string name, string email, DateTime birthDate, string gender, double weight, string bloodType, string rhFactor, List<Donations> donations)
+        public CreateDonator(string name, string email, DateTime birthDate, string gender, double weight, string bloodType, string rhFactor)
         {
             FullName = name;
             Email = email;
@@ -11,7 +11,7 @@
             Weight = weight;
             BloodType = bloodType;
             RhFactor = rhFactor;
-            Donations = new List<Donations>();
+            Donations = new List<Donation>();
         }
 
         public string FullName { get; set; }
@@ -21,8 +21,12 @@
         public double Weight { get; set;}
         public string BloodType { get; set; }
         public string RhFactor { get; set;}
-        public List<Donations> Donations { get; set;}
+        public List<Donation> Donations { get; set;}
         //public string Address { get; set; }
 
     }
 }
+
+
+
+

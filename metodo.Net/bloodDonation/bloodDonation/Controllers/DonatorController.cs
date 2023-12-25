@@ -1,6 +1,7 @@
 ﻿using bloodDonation.Models;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using System.Linq;
 
 namespace bloodDonation.Controllers
 {
@@ -12,22 +13,29 @@ namespace bloodDonation.Controllers
         {
             return Ok();
         }
-                
+
+        private static List<string> doadoresCadastrados = new List<string>();
         [HttpPost] //create
         public IActionResult Post([FromBody] CreateDonator createDonator) //Cria
         {
+            string email = createDonator.Email;
             //improve latter data validation like Address
-            if (createDonator.FullName.Length > 15)
+            if (VerificarSeEmailExiste(email))
             {
-                return BadRequest();
+                return BadRequest("Este e-mail já está cadastrado como um doador.");
             }
+            else
+            {
+                doadoresCadastrados.Add(email);
+                return CreatedAtAction(nameof(GetById), new { id = createDonator.Id, createDonator });
+                //return Ok("Doador cadastrado com sucesso!");
+            }            
 
-            //if (createDonator.Email.ContainsKey(email))
-            //{
-            //    return BadRequest("Este e-mail já está cadastrado como um doador.");
-            //}
+        }
+        private bool VerificarSeEmailExiste(string email)
 
-            return CreatedAtAction(nameof(GetById), new { id = createDonator.Id, createDonator });
+        {
+            return doadoresCadastrados.Contains(email);
         }
 
 
