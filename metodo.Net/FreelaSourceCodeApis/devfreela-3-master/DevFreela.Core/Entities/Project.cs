@@ -28,14 +28,41 @@ namespace DevFreela.Core.Entities
         public ProjectStatusEnum Status { get; private set; }
         public List<ProjectComment> Comments { get; private set; }
 
-        public void Cancel()
+        public void Started()
+        {
+            if (Status == ProjectStatusEnum.Created)
+            {
+                Status = ProjectStatusEnum.InProgress; //confirmar pq mudar enum para in progress
+                StartedAt = DateTime.Now;
+            }
+        }
+
+        public void Cancel() // utilizamos esse metodo para controlar o encapsulamento
         {
             if(Status == ProjectStatusEnum.InProgress || Status == ProjectStatusEnum.InProgress) 
             {
-                Status = ProjectStatusEnum.Cancelled;
+                Status = ProjectStatusEnum.Cancelled; 
             }
 
 
+        }
+
+        public void Finished() // utilizamos esse metodo para controlar o encapsulamento
+        {
+            if (Status == ProjectStatusEnum.InProgress)
+            {
+                Status = ProjectStatusEnum.Finished;
+                FinishedAt = DateTime.Now;
+            }
+
+
+        }
+
+        public void Update(string title, string description, decimal totalCost)
+        {
+            Title = title;
+            Description = description;
+            TotalCost = totalCost;
         }
     }
 }
