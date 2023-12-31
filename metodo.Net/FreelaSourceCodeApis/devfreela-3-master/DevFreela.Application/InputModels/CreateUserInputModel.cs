@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Application.InputModels
 {
-    internal class CreateUserInputModel
+    public class CreateUserInputModel
     {
         public string FullName { get; set; }
         public string Password { get; set; }
