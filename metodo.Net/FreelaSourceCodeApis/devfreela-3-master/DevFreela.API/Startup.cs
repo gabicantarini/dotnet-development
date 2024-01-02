@@ -6,6 +6,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using DevFreela.Infraestructure.Persistence;
+using DevFreela.Application.Services.Interfaces;
+using DevFreela.Application.Services.Implementations;
+
 
 namespace DevFreela.API
 {
@@ -23,9 +26,11 @@ namespace DevFreela.API
         {
             services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
 
-            services.AddSingleton<DevFreelaDbContext>();
+            services.AddSingleton<DevFreelaDbContext>(); //AddSingleton => padrão de injeção de dependência para registrar um serviço que terá uma única instância do serviço durante o ciclo de vida da aplicação.    
 
-            services.AddScoped<ExampleClass>(e => new ExampleClass { Name = "Initial Stage" });
+            services.AddScoped<IProjectService, ProjectServices>(); 
+
+            services.AddScoped<ExampleClass>(e => new ExampleClass { Name = "Initial Stage" }); //AddScoped => padrão de injeção de dependência para registrar um serviço que mantém a mesma instância do serviço durante a vida de uma solicitação HTTP, criando novas instâncias para solicitações subsequentes. 
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
