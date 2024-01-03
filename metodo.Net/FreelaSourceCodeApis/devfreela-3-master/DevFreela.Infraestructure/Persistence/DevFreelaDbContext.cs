@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace DevFreela.Infraestructure.Persistence
 {
-    public class DevFreelaDbContext
+    public class DevFreelaDbContext 
     {
         public DevFreelaDbContext()
         {
