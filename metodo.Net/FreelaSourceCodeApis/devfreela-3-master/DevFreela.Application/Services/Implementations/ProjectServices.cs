@@ -57,6 +57,9 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
         public ProjectDetailsViewModel GetById(int id)
         {
             var project = _dbContext.Projects.SingleOrDefault(p=> p.Id == id); //faz consulta ao db e retorna o id
+
+            if (project == null) return null;
+
             var projectDetailsViewMdel = new ProjectDetailsViewModel(
                 project.Id,
                 project.Title,
