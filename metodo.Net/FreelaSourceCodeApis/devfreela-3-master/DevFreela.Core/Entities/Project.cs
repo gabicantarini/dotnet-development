@@ -19,7 +19,9 @@ namespace DevFreela.Core.Entities
         public string Title { get; private set; } //the value will be decided in the creation moment
         public string Description { get; private set; } //the value will be decided in the creation moment
         public int IdClient { get; private set; } //the value will be decided in the creation moment
+        public User Client { get; private set; } //helps in a project consult to return and fill client infos
         public int IdFreelancer { get; private set; } //the value will be decided in the creation moment
+        public User Freelancer { get; private set; }
         public decimal TotalCost { get; private set; } //the value will be decided in the creation moment
         public DateTime CreatedAt { get; private set; } //the value will be decided in the creation moment
         public DateTime? StartedAt { get; private set; } //the value will probably not be defined in the creation
