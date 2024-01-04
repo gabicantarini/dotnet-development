@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "iIlve69QKEIhiORa4l9WJU9P8mj60xBzU1peTPS/5Pc=",
-  "Source": "bloodDonation",
-  "BasePath": "_content/bloodDonation",
+  "Hash": "Z+OIl+75XhmJwBir+8MlKZIi7TGHIYmkqhDj1DsOaNA=",
+  "Source": "BloodDonation.API",
+  "BasePath": "_content/BloodDonation.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -88,6 +88,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "BloodDonation.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/BloodDonation.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BloodDonation.Core.dll": {}
+        }
+      },
+      "BloodDonation.Infraestructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BloodDonation.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BloodDonation.Infraestructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BloodDonation.Infraestructure.dll": {}
+        }
       }
     }
   },
@@ -429,10 +452,22 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "BloodDonation.Core/1.0.0": {
+      "type": "project",
+      "path": "../BloodDonation.Core/BloodDonation.Core.csproj",
+      "msbuildProject": "../BloodDonation.Core/BloodDonation.Core.csproj"
+    },
+    "BloodDonation.Infraestructure/1.0.0": {
+      "type": "project",
+      "path": "../BloodDonation.Infraestructure/BloodDonation.Infraestructure.csproj",
+      "msbuildProject": "../BloodDonation.Infraestructure/BloodDonation.Infraestructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BloodDonation.Core >= 1.0.0",
+      "BloodDonation.Infraestructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -443,9 +478,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\bloodDonation.csproj",
-      "projectName": "bloodDonation",
-      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\bloodDonation.csproj",
+      "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
+      "projectName": "BloodDonation.API",
+      "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
       "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\obj\\",
       "projectStyle": "PackageReference",
@@ -467,7 +502,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
+              "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
+            },
+            "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

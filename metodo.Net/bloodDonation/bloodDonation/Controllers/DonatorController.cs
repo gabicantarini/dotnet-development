@@ -11,7 +11,7 @@ namespace bloodDonation.Controllers
         [HttpGet("{id}")] //Consult
         public IActionResult GetById(int id) //consult
         {
-            return Ok();
+            return Ok(id);
         }
 
         private static List<string> doadoresCadastrados = new List<string>();

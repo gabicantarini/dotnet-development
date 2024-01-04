@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ZLR1YeGc9oGWWqsfnc/+Zk888CiMWmye4K4usihAGRzKDxL5/wLUgOVluftPKI1++t7bFayhKbIn9+XVl4UoA==",
+  "dgSpecHash": "Av2rmuhmxEGphNOY3+iT57zVg5KCH0Twcz+SXsssQgU4U456wGQkd18VND9bnjTVsGUb4GaWdlhB1IO0NAK4Ig==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\bloodDonation.csproj",
+  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriela\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Gabriela\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

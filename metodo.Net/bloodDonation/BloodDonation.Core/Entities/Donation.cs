@@ -5,19 +5,19 @@ namespace BloodDonation.Core.Entities
 {
     public class Donation : BaseEntity
     {
-        public Donation(int donationId, DateTime donationDate, decimal mlQuantity, NewDonator? donator)
+        public Donation(int donationId, DateTime donationDate, int mlQuantity)
         {
             DonationId = donationId;
             DonationDate = donationDate;
             MlQuantity = mlQuantity;
-            Donator = donator; //confirmar pq pode ser nulo
+            Donator = new List<Donator>(); ; //confirmar pq pode ser nulo
         }
 
         public int DonationId { get; private set; }
         public DateTime DonationDate { get; private set; }
 
-        public decimal MlQuantity { get; private set; }
-
-        public NewDonator? Donator { get; private set; } //Confirmar Doador (Doador) é string? CreateDonator List??
+        public int MlQuantity { get; private set; }
+         
+        public List<Donator> Donator { get; private set; } //Confirmar Doador (Doador) é string? CreateDonator List??
     }
 }
