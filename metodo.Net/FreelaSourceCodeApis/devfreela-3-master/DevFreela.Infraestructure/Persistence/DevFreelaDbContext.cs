@@ -48,7 +48,24 @@ namespace DevFreela.Infraestructure.Persistence
         public DbSet<UserSkill> UserSkills { get; set; }
         public DbSet<ProjectComment> Comments { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Project>()
+                .HasKey(p => p.Id);
 
+            modelBuilder.Entity<User>()
+                .HasKey(p => p.Id);
+
+            modelBuilder.Entity<Skill>()
+                .HasKey(p => p.Id);
+
+            modelBuilder.Entity<UserSkill>()
+                .HasKey(p => p.Id);
+
+            modelBuilder.Entity<UserSkill>()
+                .HasKey(p => p.Id);
+        }
     }
 }
 
