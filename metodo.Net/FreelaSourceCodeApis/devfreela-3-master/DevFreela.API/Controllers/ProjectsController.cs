@@ -1,8 +1,10 @@
 ﻿using DevFreela.API.Models;
 using DevFreela.Application.Services.Interfaces;
+using DevFreela.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -22,33 +24,38 @@ namespace DevFreela.API.Controllers
         [HttpGet]
         public IActionResult Get(string query)//query é um parâmetro para consulta
         {
-            // Buscar todos ou filtrar
+            var projects = _projectService.GetAll(query);
 
-            return Ok();
+            return Ok(projects);
         }
 
         // api/projects/2
         [HttpGet("{id}")]
         public IActionResult GetById(int id) // consulta com parâmetro de url id
         {
-            // Buscar o projeto
+            var project = _projectService.GetById(id);
 
-            // return NotFound();
+            if (project == null)
+            {
+                return NotFound(); //404
+            }
 
-            return Ok();
+            return Ok(project);
         }
 
         [HttpPost]
         //o post retorna uma anotação com o corpo da requisição [from body] com o objeto da CreateProjectModel (q tem o id, o titulo e a description)
-        public IActionResult Post([FromBody] CreateProjectModel createProject)
+        public IActionResult Post([FromBody] NewProjectInputModel inputModel)
         {
             // o post retorna a informação pro frontend
             
-            if (createProject.Title.Length > 50) //validação para que o título não seja maior que 50
+            if (inputModel.Title.Length > 50) //validação para que o título não seja maior que 50
             {
                 // o post retorna bad request quando não cumpre a validação 
                 return BadRequest();
             }
+
+            var id = _projectService.Create(inputModel);
 
             // Se cumprir a validação, o post retorna o o código 201 através do método CreatedAtAction() que por default espera receber 3 parametros
             // 1 parametro retorna o nome da API com os detalhes = nameof(GetById)
@@ -56,19 +63,20 @@ namespace DevFreela.API.Controllers
             // 3 parametro retorna o objeto cadastrado =  createProject
             // Cadastrar o projeto
 
-            return CreatedAtAction(nameof(GetById), new { id = createProject.Id }, createProject);
+            return CreatedAtAction(nameof(GetById), new { id = id }, inputModel);
         }
 
         // api/projects/2 - Ex: vai atualizar o objeto com o id
         [HttpPut("{id}")]
         // o put retorna uma anotação com o corpo da requisição [from body] com o objeto da UpdateProjectModel (que só tem a descrição)
-        public IActionResult Put(int id, [FromBody] UpdateProjectModel updateProject)
+        public IActionResult Put(int id, [FromBody] UpdateProjectInputModel inputModel)
         {
-            if (updateProject.Description.Length > 200)
+            if (inputModel.Description.Length > 200)
             {
                 return BadRequest();
             }
 
+            _projectService.Update(inputModel);
             // reotrno padrão do put é NoContent() que atualiza o objeto
             return NoContent();
         }
@@ -77,7 +85,7 @@ namespace DevFreela.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            // Buscar, se não existir, retorna NotFound
+            _projectService.Delete(id);
 
             // Remover 
 
@@ -86,8 +94,9 @@ namespace DevFreela.API.Controllers
 
         // api/projects/1/comments POST
         [HttpPost("{id}/comments")]
-        public IActionResult PostComment(int id, [FromBody] CreateCommentModel createComment)
+        public IActionResult PostComment(int id, [FromBody] CreateCommentInputModel inputModel)
         {
+            _projectService.CreateComment(inputModel);
             return NoContent();
         }
 
@@ -95,6 +104,7 @@ namespace DevFreela.API.Controllers
         [HttpPut("{id}/start")]
         public IActionResult Start(int id)
         {
+            _projectService.Start(id);
             return NoContent();
         }
 
@@ -102,6 +112,7 @@ namespace DevFreela.API.Controllers
         [HttpPut("{id}/finish")]
         public IActionResult Finish(int id)
         {
+            _projectService.Finish(id);
             return NoContent();
         }
     }
