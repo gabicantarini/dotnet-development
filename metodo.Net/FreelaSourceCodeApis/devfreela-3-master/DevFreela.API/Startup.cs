@@ -8,7 +8,7 @@ using Microsoft.OpenApi.Models;
 using DevFreela.Infraestructure.Persistence;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Application.Services.Implementations;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.API
 {
@@ -26,7 +26,9 @@ namespace DevFreela.API
         {
             services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
 
-            services.AddSingleton<DevFreelaDbContext>(); //AddSingleton => padrão de injeção de dependência para registrar um serviço que terá uma única instância do serviço durante o ciclo de vida da aplicação.    
+            var connectiongString = Configuration.GetConnectionString("DevFreelaCs");
+
+            services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServer(connectiongString)); //antigo services.AddSingleton<DevFreelaDbContext>(); //AddSingleton => padrão de injeção de dependência para registrar um serviço que terá uma única instância do serviço durante o ciclo de vida da aplicação.    
 
             services.AddScoped<IProjectService, ProjectServices>(); 
 
@@ -34,6 +36,8 @@ namespace DevFreela.API
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
+
+
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "DevFreela.API", Version = "v1" });
             });
