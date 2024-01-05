@@ -17,8 +17,8 @@ namespace DevFreela.Core.Entities
             BirthDate = birthDate;
             Active = true;            
             Skills = new List<UserSkill>();
-            OwnedProjects = new List<Project>();
-            FreelanceProjects = new List<Project>();
+            OwnedProjects = new List<Project>(); //for the client who has project and need a freelancer
+            FreelanceProjects = new List<Project>();//for freelancers control their projects
 
         }
 
@@ -30,6 +30,8 @@ namespace DevFreela.Core.Entities
         public List<UserSkill> Skills { get; private set; } // um usuário terá uma lista de habilidades
         public List<Project> OwnedProjects { get; private set; }
         public List<Project> FreelanceProjects { get; private set; }
+
+        public List<ProjectComment> Comments { get; private set; }
     }
 }
 
