@@ -13,6 +13,11 @@
             IdSkill = idSkill;
         }
 
+        protected UserSkill()
+        {
+
+        }
+
         public int IdUser { get; private set; } //uma habilidade para um usuário
         
         public int IdSkill { get; private set; }
