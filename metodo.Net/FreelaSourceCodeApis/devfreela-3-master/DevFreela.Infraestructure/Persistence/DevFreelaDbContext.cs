@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 
 namespace DevFreela.Infraestructure.Persistence
 {
@@ -51,20 +52,10 @@ namespace DevFreela.Infraestructure.Persistence
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Project>()
-                .HasKey(p => p.Id);
 
-            modelBuilder.Entity<User>()
-                .HasKey(p => p.Id);
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly()); //para gerar a migration
 
-            modelBuilder.Entity<Skill>()
-                .HasKey(p => p.Id);
 
-            modelBuilder.Entity<UserSkill>()
-                .HasKey(p => p.Id);
-
-            modelBuilder.Entity<UserSkill>()
-                .HasKey(p => p.Id);
         }
     }
 }
