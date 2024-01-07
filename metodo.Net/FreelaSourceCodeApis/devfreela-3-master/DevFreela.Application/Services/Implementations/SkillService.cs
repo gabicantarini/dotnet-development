@@ -23,7 +23,7 @@ namespace DevFreela.Application.Services.Implementations
             var skills = _dbContext.Skills;
 
             var skillsViewModel = skills
-                .Select(s => new SkillViewModel(s.Id, s.Descritpion))
+                .Select(s => new SkillViewModel(s.Id, s.Description))
                 .ToList();
 
             return skillsViewModel;
