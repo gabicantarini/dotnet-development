@@ -10,11 +10,11 @@ namespace DevFreela.Core.Entities
     {
         public Skill(string descritpion)
         {
-            Descritpion = descritpion;
+            Description = descritpion;
             CreateAt = DateTime.Now;
         }
 
-        public string Descritpion { get; private set; } //private set é porque essa informação não pode ser alterada fora do escopo dessa classe
+        public string Description { get; private set; } //private set serve para melhorar a encapsulação na aplicação. Assim essas informações não podem ser alteradas fora do escopo dessa classe 
 
         public DateTime CreateAt { get; private set; }
     }
