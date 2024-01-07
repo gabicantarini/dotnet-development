@@ -2,6 +2,7 @@
 using DevFreela.Application.ViewModels;
 using DevFreela.Core.Entities;
 using DevFreela.Infraestructure.Persistence;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 
@@ -19,6 +20,7 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
         {
             var project = new Project(inputModel.Title, inputModel.Description, inputModel.IdClient, inputModel.IdFreelancer, inputModel.TotalCost);// converte o NewProjectInputModel para um project
             _dbContext.Projects.Add(project); //Aqui o id não é inicializado. Mas quando salvarmos a entidade no banco de dados, ele preenche e retorna o id
+            _dbContext.SaveChanges(); //salvar os dados após a persistência. Usar em todo lugar que tem alteração do estado do objeto.
             return project.Id;
         }
 
@@ -26,6 +28,7 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
         {
             var comment = new ProjectComment(inputModel.Content, inputModel.IdProject, inputModel.IdUser);
             _dbContext.Comments.Add(comment);
+            _dbContext.SaveChanges();
         }
 
         public void Delete(int id)
@@ -41,6 +44,7 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
             var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
 
             project.Finished();
+            _dbContext.SaveChanges();
 
         }
 
@@ -56,7 +60,11 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
 
         public ProjectDetailsViewModel GetById(int id)
         {
-            var project = _dbContext.Projects.SingleOrDefault(p=> p.Id == id); //faz consulta ao db e retorna o id
+            var project = _dbContext.Projects
+                .Include(p => p.Client) //O include passa a preencher esse objeto
+                .Include(p => p.Freelancer)
+                .SingleOrDefault(p=> p.Id == id); //faz consulta ao db e retorna o id
+            
 
             if (project == null) return null;
 
@@ -66,8 +74,13 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
                 project.Description,
                 project.TotalCost,
                 project.StartedAt,
-                project.FinishedAt); //retorna um novodado através desse mapeamento.
+                project.FinishedAt, //retorna um novodado através desse mapeamento.
                                      //obs: esse mapeamento pode ser substituido pelo auto mapper
+                project.Client.FullName,
+                project.Freelancer.FullName
+                );
+
+
             return projectDetailsViewMdel;
         }
 
@@ -76,6 +89,7 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
             var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
 
             project.Started();
+            _dbContext.SaveChanges();
         }
 
         public void Update(UpdateProjectInputModel inputModel)
@@ -83,6 +97,7 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
             var project = _dbContext.Projects.SingleOrDefault(p => p.Id == inputModel.Id);
 
             project.Update(inputModel.Title, inputModel.Description, inputModel.TotalCost);
+            _dbContext.SaveChanges();
         }
     }
 }
