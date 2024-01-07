@@ -24,15 +24,14 @@ namespace DevFreela.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
+            //services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
 
-            var connectiongString = Configuration.GetConnectionString("DevFreelaCs");
+            var connectionString = Configuration.GetConnectionString("DevFreelaCs");
+            services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServer(connectionString)); //antigo services.AddSingleton<DevFreelaDbContext>(); //AddSingleton => padrão de injeção de dependência para registrar um serviço que terá uma única instância do serviço durante o ciclo de vida da aplicação.    
 
-            services.AddDbContext<DevFreelaDbContext>(options => options.UseSqlServer(connectiongString)); //antigo services.AddSingleton<DevFreelaDbContext>(); //AddSingleton => padrão de injeção de dependência para registrar um serviço que terá uma única instância do serviço durante o ciclo de vida da aplicação.    
+            //services.AddScoped<IProjectService, ProjectServices>(); 
 
-            services.AddScoped<IProjectService, ProjectServices>(); 
-
-            services.AddScoped<ExampleClass>(e => new ExampleClass { Name = "Initial Stage" }); //AddScoped => padrão de injeção de dependência para registrar um serviço que mantém a mesma instância do serviço durante a vida de uma solicitação HTTP, criando novas instâncias para solicitações subsequentes. 
+            //services.AddScoped<ExampleClass>(e => new ExampleClass { Name = "Initial Stage" }); //AddScoped => padrão de injeção de dependência para registrar um serviço que mantém a mesma instância do serviço durante a vida de uma solicitação HTTP, criando novas instâncias para solicitações subsequentes. 
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -65,4 +64,8 @@ namespace DevFreela.API
             });
         }
     }
+
+
+
+
 }
