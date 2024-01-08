@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using DevFreela.Application.Services.Interfaces;
 using DevFreela.Application.ViewModels;
 using DevFreela.Infraestructure.Persistence;
 using Microsoft.Extensions.Configuration;
@@ -13,7 +14,7 @@ namespace DevFreela.Application.Services.Implementations
     public class SkillService : ISkillService
     {
         private readonly DevFreelaDbContext _dbContext; //declara um campo privado na classe ProjectServices do tipo DevFreelaDbContext
-        private readonly ISkillService _connectionString;
+        private readonly string _connectionString;
 
         public SkillService(DevFreelaDbContext dbContext, IConfiguration configuration) //esse contrutor inicializa o objeto DevFreelaDbContext
         {
