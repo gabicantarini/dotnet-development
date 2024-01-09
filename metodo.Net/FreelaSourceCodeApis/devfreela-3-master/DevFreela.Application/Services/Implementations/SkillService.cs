@@ -2,6 +2,7 @@
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Application.ViewModels;
 using DevFreela.Infraestructure.Persistence;
+using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -24,13 +25,22 @@ namespace DevFreela.Application.Services.Implementations
 
         public List<SkillViewModel> GetAll()
         {
-            var skills = _dbContext.Skills;
+            using (var sqlConnection = new SqlConnection(_connectionString)) //Connection and query throw Dapper
+            {
+                sqlConnection.Open();
 
-            var skillsViewModel = skills
-                .Select(s => new SkillViewModel(s.Id, s.Description))
-                .ToList();
+                var script = "SELECT Id, Description FROM Skills";
 
-            return skillsViewModel;
+                return sqlConnection.Query<SkillViewModel>(script).ToList();
+            }
+            
+            //var skills = _dbContext.Skills;
+
+            //var skillsViewModel = skills
+            //    .Select(s => new SkillViewModel(s.Id, s.Description))
+            //    .ToList();
+
+            //return skillsViewModel;
         }
     }
 }
