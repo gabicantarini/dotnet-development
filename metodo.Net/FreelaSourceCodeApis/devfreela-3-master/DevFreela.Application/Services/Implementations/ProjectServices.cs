@@ -92,6 +92,8 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
             _dbContext.SaveChanges();
         }
 
+
+
         public void Update(UpdateProjectInputModel inputModel)
         {
             var project = _dbContext.Projects.SingleOrDefault(p => p.Id == inputModel.Id);
