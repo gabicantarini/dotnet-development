@@ -25,7 +25,7 @@ namespace DevFreela.Application.Services.Implementations
 
         public List<SkillViewModel> GetAll()
         {
-            using (var sqlConnection = new SqlConnection(_connectionString)) //Connection and query throw Dapper
+            using (var sqlConnection = new SqlConnection(_connectionString)) //Connection and query throw Dapper  - Use to consult streight to DB
             {
                 sqlConnection.Open();
 
@@ -34,7 +34,7 @@ namespace DevFreela.Application.Services.Implementations
                 return sqlConnection.Query<SkillViewModel>(script).ToList();
             }
             
-            //var skills = _dbContext.Skills;
+            //var skills = _dbContext.Skills; - USe for DB in memory
 
             //var skillsViewModel = skills
             //    .Select(s => new SkillViewModel(s.Id, s.Description))
