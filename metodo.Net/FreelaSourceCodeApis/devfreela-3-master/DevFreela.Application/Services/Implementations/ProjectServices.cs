@@ -1,9 +1,12 @@
-﻿using DevFreela.Application.InputModels;
+﻿using Dapper;
+using DevFreela.Application.InputModels;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Application.ViewModels;
 using DevFreela.Core.Entities;
 using DevFreela.Infraestructure.Persistence;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 
@@ -13,9 +16,12 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
     public class ProjectServices : IProjectService // para implementar o project service e criar um metodo para todas as funcionalidades
     {
         private readonly DevFreelaDbContext _dbContext; //para que não seja alterado
-        public ProjectServices(DevFreelaDbContext dbContext)
+        private readonly string _connectionString;
+
+        public ProjectServices(DevFreelaDbContext dbContext, IConfiguration configuration)
         {
             _dbContext = dbContext; // Parallel acessar os dados do dbContext em memória através dessa injeção de dependência
+            _connectionString = configuration.GetConnectionString("DevFreelaCs");
         }
         public int Create(NewProjectInputModel inputModel)
         {
@@ -87,10 +93,20 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
 
         public void Start(int id)
         {
+
             var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
 
             project.Started();
-            _dbContext.SaveChanges();
+            //_dbContext.SaveChanges();
+
+            using (var sqlConnection = new SqlConnection(_connectionString))
+            {
+                sqlConnection.Open();
+
+                var script = "UPDATE Projects SET Status = @status, StartedAt = @startedat WHERE Id = @id";
+                sqlConnection.Execute(script, new { status = project.Status, startedat = project.StartedAt, id });
+            }
+
         }
 
 
