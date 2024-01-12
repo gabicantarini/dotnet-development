@@ -31,8 +31,7 @@ namespace DevFreela.API.Controllers
             return NoContent();
         }
 
-    }
-    
+    }    
 
 }
 
