@@ -11,8 +11,4 @@
     <ProjectReference Include="..\BloodDonation.Infraestructure\BloodDonation.Infraestructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
 </Project>
