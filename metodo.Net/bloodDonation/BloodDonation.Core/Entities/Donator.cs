@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace BloodDonation.Core.Entities
 {
     public class Donator : BaseEntity
     {
-        public Donator(string name, string email, DateTime birthDate, string gender, double weight, string bloodType, string rhFactor)
+        public Donator(string name, string email, DateTime birthDate, string gender, double weight, string bloodType, string rhFactor, string address, bool active)
         {
             FullName = name;
             Email = email;
@@ -18,8 +19,11 @@ namespace BloodDonation.Core.Entities
             Weight = weight;
             BloodType = bloodType;
             RhFactor = rhFactor;
+            Active = true;
             Donations = new List<Donation>();
+            Active = active;
         }
+        protected Donator() { }
 
         public string FullName { get; private set; }
         public string Email { get; private set; }
@@ -28,8 +32,8 @@ namespace BloodDonation.Core.Entities
         public double Weight { get; private set; }
         public string BloodType { get; private set; }
         public string RhFactor { get; private set; }
-        public List<Donation> Donations { get; private set; }
-        //public string Address { get; set; }
+        public List<Donation> Donations { get; private set; }    
+        public bool Active { get; private set; }
     }
 
 }
