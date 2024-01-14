@@ -9,3 +9,9 @@ C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonat
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\obj\Debug\net6.0\refint\BloodDonation.Application.dll
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\obj\Debug\net6.0\BloodDonation.Application.pdb
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\obj\Debug\net6.0\ref\BloodDonation.Application.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\bin\Debug\net6.0\BloodDonation.Core.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\bin\Debug\net6.0\BloodDonation.Infraestructure.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\bin\Debug\net6.0\BloodDonation.Core.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\bin\Debug\net6.0\BloodDonation.Infraestructure.pdb
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\obj\Debug\net6.0\BloodDonation.Application.csproj.AssemblyReference.cache
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Application\obj\Debug\net6.0\BloodDonation.Application.csproj.CopyComplete

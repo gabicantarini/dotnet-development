@@ -13,3 +13,5 @@ C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonat
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Infraestructure\obj\Debug\net6.0\refint\BloodDonation.Infraestructure.dll
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Infraestructure\obj\Debug\net6.0\BloodDonation.Infraestructure.pdb
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Infraestructure\obj\Debug\net6.0\ref\BloodDonation.Infraestructure.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Infraestructure\bin\Debug\net6.0\BloodDonation.Infraestructure.runtimeconfig.json
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\metodo.Net\bloodDonation\BloodDonation.Infraestructure\obj\Debug\net6.0\BloodDonation.Infraestructure.genruntimeconfig.cache

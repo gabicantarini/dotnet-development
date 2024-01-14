@@ -7,10 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BloodDonation.Application\BloodDonation.Application.csproj" />
     <ProjectReference Include="..\BloodDonation.Core\BloodDonation.Core.csproj" />
     <ProjectReference Include="..\BloodDonation.Infraestructure\BloodDonation.Infraestructure.csproj" />
   </ItemGroup>
