@@ -5,15 +5,15 @@ namespace BloodDonation.Core.Entities
 {
     public class Donation : BaseEntity
     {
-        public Donation(int donationId, DateTime donationDate, int mlQuantity)
+        public Donation(int donatorId, DateTime donationDate, int mlQuantity)
         {
-            DonationId = donationId;
+            DonatorId = donatorId;
             DonationDate = donationDate;
             MlQuantity = mlQuantity;
             Donator = new List<Donator>(); ; //confirmar pq pode ser nulo
         }
 
-        public int DonationId { get; private set; }
+        public int DonatorId { get; private set; }
         public DateTime DonationDate { get; private set; }
 
         public int MlQuantity { get; private set; }
