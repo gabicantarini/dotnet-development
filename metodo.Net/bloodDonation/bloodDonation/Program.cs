@@ -1,5 +1,8 @@
 
 
+using BloodDonation.Infraestructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,7 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSingleton<DevFreelaDbContext>(); //Ver como insere o db context no program
+var connectionString = builder.Configuration.GetConnectionString("BloodDonationCs"); //BloodDonationCs => chave do appsetting.json
+builder.Services.AddDbContext<BloodDonationDbContext>(options => options.UseSqlServer(connectionString)); 
 
 var app = builder.Build();
 
