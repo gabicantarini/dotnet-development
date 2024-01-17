@@ -10,7 +10,6 @@ namespace DevFreela.Application.Services.Interfaces
         ProjectDetailsViewModel GetById(int id);
 
         //modelos de entrada
-        int Create(NewProjectInputModel inputModel);
         void Update(UpdateProjectInputModel inputModel);
         void Delete(int id);
         void CreateComment(CreateCommentInputModel inputModel);
