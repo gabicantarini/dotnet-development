@@ -1,4 +1,5 @@
 ﻿using DevFreela.Application.InputModels;
+using DevFreela.Application.Services.Interfaces;
 using DevFreela.Application.ViewModels;
 using DevFreela.Core.Entities;
 using DevFreela.Infraestructure.Persistence;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Application.Services.Implementations
 {
-    public class UserService
+    public class UserService : IUserService
     {
         private readonly DevFreelaDbContext _dbContext;
         public UserService(DevFreelaDbContext dbContext)
