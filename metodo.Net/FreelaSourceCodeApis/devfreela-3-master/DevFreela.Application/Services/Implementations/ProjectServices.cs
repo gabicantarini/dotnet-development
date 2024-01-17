@@ -23,13 +23,15 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
             _dbContext = dbContext; // Parallel acessar os dados do dbContext em memória através dessa injeção de dependência
             _connectionString = configuration.GetConnectionString("DevFreelaCs");
         }
-        public int Create(NewProjectInputModel inputModel)
-        {
-            var project = new Project(inputModel.Title, inputModel.Description, inputModel.IdClient, inputModel.IdFreelancer, inputModel.TotalCost);// converte o NewProjectInputModel para um project
-            _dbContext.Projects.Add(project); //Aqui o id não é inicializado. Mas quando salvarmos a entidade no banco de dados, ele preenche e retorna o id
-            _dbContext.SaveChanges(); //salvar os dados após a persistência. Usar em todo lugar que tem alteração do estado do objeto.
-            return project.Id;
-        }
+
+        //SUBSTITUIDO PELO COMMAND CQRS
+        //public int Create(NewProjectInputModel inputModel)
+        //{
+        //    var project = new Project(inputModel.Title, inputModel.Description, inputModel.IdClient, inputModel.IdFreelancer, inputModel.TotalCost);// converte o NewProjectInputModel para um project
+        //    _dbContext.Projects.Add(project); //Aqui o id não é inicializado. Mas quando salvarmos a entidade no banco de dados, ele preenche e retorna o id
+        //    _dbContext.SaveChanges(); //salvar os dados após a persistência. Usar em todo lugar que tem alteração do estado do objeto.
+        //    return project.Id;
+        //}
 
         public void CreateComment(CreateCommentInputModel inputModel)
         {
