@@ -13,6 +13,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using DevFreela.Application.Commands.UpdateProject;
+using DevFreela.Application.Commands.FinishProject;
+using DevFreela.Application.Commands.StartProject;
 
 namespace DevFreela.API.Controllers
 {
@@ -111,18 +113,21 @@ namespace DevFreela.API.Controllers
         }
 
         // api/projects/1/start
+
         [HttpPut("{id}/start")]
-        public IActionResult Start(int id)
+        public async Task<IActionResult> Start(int id)
         {
-            _projectService.Start(id);
+            var command = new StartProjectCommand(id);
+            await _mediator.Send(id);
             return NoContent();
         }
 
         // api/projects/1/finish
         [HttpPut("{id}/finish")]
-        public IActionResult Finish(int id)
+        public async Task<IActionResult> Finish(int id)
         {
-            _projectService.Finish(id);
+            var command = new FinishProjectCommand(id);
+            await _mediator.Send(command);           
             return NoContent();
         }
     }
