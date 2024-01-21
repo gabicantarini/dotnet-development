@@ -22,7 +22,7 @@ namespace DevFreela.Application.Commands.DeleteProjectCommandHandler
             var project = _dbContext.Projects.SingleOrDefault(p => p.Id == request.Id); 
 
             project.Cancel();
-            await  _dbContext.SaveChangesAsync();
+            await _dbContext.SaveChangesAsync();
 
             return Unit.Value;
         }
