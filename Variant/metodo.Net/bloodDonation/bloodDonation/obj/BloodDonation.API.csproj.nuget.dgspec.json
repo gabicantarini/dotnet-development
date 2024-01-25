@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj": {}
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj": {
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj",
         "projectName": "BloodDonation.Application",
-        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj",
+        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj",
         "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Application\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
-                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
+              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
+                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
               },
-              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj"
+              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj",
         "projectName": "BloodDonation.Core",
-        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj",
+        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj",
         "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -129,14 +129,14 @@
         }
       }
     },
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj",
         "projectName": "BloodDonation.Infraestructure",
-        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -157,8 +157,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
-                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
+              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
+                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
               }
             }
           }
@@ -204,14 +204,14 @@
         }
       }
     },
-    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj": {
+    "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
         "projectName": "BloodDonation.API",
-        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
+        "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\bloodDonation\\BloodDonation.API.csproj",
         "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\bloodDonation\\obj\\",
+        "outputPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\bloodDonation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -232,14 +232,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj": {
-                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj"
+              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj": {
+                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Application\\BloodDonation.Application.csproj"
               },
-              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
-                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
+              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj": {
+                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Core\\BloodDonation.Core.csproj"
               },
-              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj"
+              "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj"
               }
             }
           }

@@ -33,12 +33,12 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
         //    return project.Id;
         //}
 
-        public void CreateComment(CreateCommentInputModel inputModel)
-        {
-            var comment = new ProjectComment(inputModel.Content, inputModel.IdProject, inputModel.IdUser);
-            _dbContext.Comments.Add(comment);
-            _dbContext.SaveChanges();
-        }
+        //public void CreateComment(CreateCommentInputModel inputModel)
+        //{
+        //    var comment = new ProjectComment(inputModel.Content, inputModel.IdProject, inputModel.IdUser);
+        //    _dbContext.Comments.Add(comment);
+        //    _dbContext.SaveChanges();
+        //}
 
         public void Delete(int id)
         {

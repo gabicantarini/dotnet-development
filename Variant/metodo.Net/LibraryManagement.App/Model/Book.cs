@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.App.Model
 {
-    internal class Book
+    public class Book
     {
         public Book(int id, string title, string author, string isbn, int publishYear) {
 

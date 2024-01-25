@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bV6BPOI2rCFv9O+Q1MtYu1YZACf63lSm2cBL96W8XQi0DDJSjxn1C3b0seP9tphNBRtC0zawj7m50uoX0mcbqw==",
+  "dgSpecHash": "iVUnOYkZNaHghdDH5BXYgj1zRP1htqx6RxM4nRkvqapbcr5xra81znFNg5V4kBRSWKhzf3b7Ol/GC/3EuXZkcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\metodo.Net\\bloodDonation\\BloodDonation.Infraestructure\\BloodDonation.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriela\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Gabriela\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
