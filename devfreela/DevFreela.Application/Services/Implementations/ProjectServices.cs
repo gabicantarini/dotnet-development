@@ -40,13 +40,14 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
         //    _dbContext.SaveChanges();
         //}
 
-        public void Delete(int id)
-        {
-            //_dbContext.Projects.Remove(); //Remove da Lista
-            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id); // faz a consulta
+        //public void Delete(int id)
+        //{
+        //    //_dbContext.Projects.Remove(); //Remove da Lista
+        //    var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id); // faz a consulta
 
-            project.Cancel(); //cancela o serviço para não remover de uma vez
-        }
+        //    project.Cancel(); //cancela o serviço para não remover de uma vez
+        //    _dbContext.SaveChanges();
+        //}
 
         public void Finish(int id)
         {

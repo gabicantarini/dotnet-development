@@ -1,5 +1,6 @@
 ﻿using DevFreela.API.Models;
-using DevFreela.Application.Commands.CreateCommands;
+using DevFreela.Application.Commands.CreateComment;
+using DevFreela.Application.Commands.DeleteProject;
 using DevFreela.Application.Commands.CreateProject;
 using DevFreela.Application.Services.Interfaces;
 using DevFreela.Application.ViewModels;
@@ -90,9 +91,10 @@ namespace DevFreela.API.Controllers
 
         // api/projects/3 DELETE
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            _projectService.Delete(id);
+            var command = new DeleteProjectCommand(id);
+            await _mediator.Send(command);
 
             // Remover 
 
