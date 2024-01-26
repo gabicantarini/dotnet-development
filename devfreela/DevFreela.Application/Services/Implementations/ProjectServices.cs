@@ -114,12 +114,12 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
 
 
 
-        public void Update(UpdateProjectInputModel inputModel)
-        {
-            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == inputModel.Id);
+        //public void Update(UpdateProjectInputModel inputModel)
+        //{
+        //    var project = _dbContext.Projects.SingleOrDefault(p => p.Id == inputModel.Id);
 
-            project.Update(inputModel.Title, inputModel.Description, inputModel.TotalCost);
-            _dbContext.SaveChanges();
-        }
+        //    project.Update(inputModel.Title, inputModel.Description, inputModel.TotalCost);
+        //    _dbContext.SaveChanges();
+        //}
     }
 }

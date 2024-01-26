@@ -10,7 +10,7 @@ namespace DevFreela.Application.Services.Interfaces
         ProjectDetailsViewModel GetById(int id);
 
         //modelos de entrada
-        void Update(UpdateProjectInputModel inputModel);
+        //void Update(UpdateProjectInputModel inputModel);
         //void Delete(int id);
         //void CreateComment(CreateCommentInputModel inputModel); //added method in create comment command handler
         void Start(int id);

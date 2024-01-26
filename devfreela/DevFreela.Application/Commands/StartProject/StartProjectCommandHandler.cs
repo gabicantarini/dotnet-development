@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Application.Commands.StartProject
 {
-    internal class StartProjectCommandHandler
+    public class StartProjectCommandHandler
     {
     }
 }

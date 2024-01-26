@@ -12,6 +12,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DevFreela.Application.Commands.UpdateProject;
 
 namespace DevFreela.API.Controllers
 {
@@ -77,14 +78,14 @@ namespace DevFreela.API.Controllers
         // api/projects/2 - Ex: vai atualizar o objeto com o id
         [HttpPut("{id}")]
         // o put retorna uma anotação com o corpo da requisição [from body] com o objeto da UpdateProjectModel (que só tem a descrição)
-        public IActionResult Put(int id, [FromBody] UpdateProjectInputModel inputModel)
+        public async Task<IActionResult> Put(int id, [FromBody] UpdateProjectCommand command)
         {
-            if (inputModel.Description.Length > 200)
+            if (command.Description.Length > 200)
             {
                 return BadRequest();
             }
 
-            _projectService.Update(inputModel);
+            await _mediator.Send(command);
             // reotrno padrão do put é NoContent() que atualiza o objeto
             return NoContent();
         }
