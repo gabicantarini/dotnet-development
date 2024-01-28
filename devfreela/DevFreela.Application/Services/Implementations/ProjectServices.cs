@@ -58,15 +58,15 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
 
         //}
 
-        public List<ProjectViewModel> GetAll(string query)
-        {
-            var projects = _dbContext.Projects;
+        //public List<ProjectViewModel> GetAll(string query)
+        //{
+        //    var projects = _dbContext.Projects;
 
-            var projectViewModel = projects
-                .Select(p => new ProjectViewModel(p.Id, p.Title, p.CreatedAt)) 
-                .ToList(); //retorna uma lista a partir da projeção dos dados
-            return projectViewModel;
-        }
+        //    var projectViewModel = projects
+        //        .Select(p => new ProjectViewModel(p.Id, p.Title, p.CreatedAt)) 
+        //        .ToList(); //retorna uma lista a partir da projeção dos dados
+        //    return projectViewModel;
+        //}
 
         public ProjectDetailsViewModel GetById(int id)
         {

@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using DevFreela.Application.Commands.UpdateProject;
 using DevFreela.Application.Commands.FinishProject;
 using DevFreela.Application.Commands.StartProject;
+using DevFreela.Application.Queries.GetAllProjects;
 
 namespace DevFreela.API.Controllers
 {
@@ -31,9 +32,11 @@ namespace DevFreela.API.Controllers
 
         // api/projects?query=net core
         [HttpGet]
-        public IActionResult Get(string query)//query é um parâmetro para consulta
+        public async Task<IActionResult> Get(string query)//query é um parâmetro para consulta
         {
-            var projects = _projectService.GetAll(query);
+            var getAllProjectsQuery = new GetAllProjectsQuery(query);
+            
+            var projects = _mediator.Send(getAllProjectsQuery);
 
             return Ok(projects);
         }
