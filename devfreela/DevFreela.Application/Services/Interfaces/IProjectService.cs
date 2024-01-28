@@ -13,7 +13,7 @@ namespace DevFreela.Application.Services.Interfaces
         //void Update(UpdateProjectInputModel inputModel);
         //void Delete(int id);
         //void CreateComment(CreateCommentInputModel inputModel); //added method in create comment command handler
-        void Start(int id);
-        void Finish(int id);
+        //void Start(int id);
+        //void Finish(int id);
     }
 }

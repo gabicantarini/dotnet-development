@@ -49,14 +49,14 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
         //    _dbContext.SaveChanges();
         //}
 
-        public void Finish(int id)
-        {
-            var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
+        //public void Finish(int id)
+        //{
+        //    var project = _dbContext.Projects.FirstOrDefault(p => p.Id == id);
 
-            project.Finished();
-            _dbContext.SaveChanges();
+        //    project.Finished();
+        //    _dbContext.SaveChanges();
 
-        }
+        //}
 
         public List<ProjectViewModel> GetAll(string query)
         {
@@ -94,23 +94,23 @@ namespace DevFreela.Application.Services.Implementations //Adicionado referênci
             return projectDetailsViewMdel;
         }
 
-        public void Start(int id)
-        {
+        //public void Start(int id)
+        //{
 
-            var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
+        //    var project = _dbContext.Projects.SingleOrDefault(p => p.Id == id);
 
-            project.Started();
-            //_dbContext.SaveChanges();
+        //    project.Started();
+        //    //_dbContext.SaveChanges();
 
-            using (var sqlConnection = new SqlConnection(_connectionString))
-            {
-                sqlConnection.Open();
+        //    using (var sqlConnection = new SqlConnection(_connectionString))
+        //    {
+        //        sqlConnection.Open();
 
-                var script = "UPDATE Projects SET Status = @status, StartedAt = @startedat WHERE Id = @id";
-                sqlConnection.Execute(script, new { status = project.Status, startedat = project.StartedAt, id });
-            }
+        //        var script = "UPDATE Projects SET Status = @status, StartedAt = @startedat WHERE Id = @id";
+        //        sqlConnection.Execute(script, new { status = project.Status, startedat = project.StartedAt, id });
+        //    }
 
-        }
+        //}
 
 
 

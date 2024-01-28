@@ -25,6 +25,7 @@ namespace DevFreela.Application.Commands.StartProject
             await _dbContext.AddAsync(project);
 
             return Unit.Value;
+
         }
     }
 }

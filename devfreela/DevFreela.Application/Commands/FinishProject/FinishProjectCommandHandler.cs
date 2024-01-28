@@ -17,9 +17,10 @@ namespace DevFreela.Application.Commands.FinishProject
         }
         public async Task<Unit> Handle(FinishProjectCommand request, CancellationToken cancellationToken)
         {
-            var project = await _dbContext.AddAsync(request.Id);
+            var project = _dbContext.Projects.FirstOrDefault(p => p.Id == request.Id);
 
-            //project.Finish();
+            project.Finished();
+           await _dbContext.SaveChangesAsync();
 
             return Unit.Value;
         }
