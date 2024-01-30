@@ -13,6 +13,8 @@ using DevFreela.Application.Commands.CreateProject;
 using MediatR;
 using DevFreela.Core.Repositories;
 using DevFreela.Infraestructure.Persistence.Repositories;
+using FluentValidation.AspNetCore;
+using DevFreela.Application.Validators;
 
 namespace DevFreela.API
 {
@@ -26,6 +28,7 @@ namespace DevFreela.API
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        [System.Obsolete]
         public void ConfigureServices(IServiceCollection services)
         {
             //services.Configure<OpeningTimeOption>(Configuration.GetSection("OpeningTime"));
@@ -41,7 +44,8 @@ namespace DevFreela.API
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ISkillRepository, SkillRepository>();
 
-            services.AddControllers();
+            services.AddControllers()
+                .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateUserCommandValidator>());
 
             services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<CreateProjectCommand>()); //passar o tipo de uma classe do application
 
