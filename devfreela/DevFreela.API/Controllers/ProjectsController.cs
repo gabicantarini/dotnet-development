@@ -62,16 +62,6 @@ namespace DevFreela.API.Controllers
         {
             // o post retorna a informação pro frontend
 
-            if (!ModelState.IsValid)
-            {
-                var messages = ModelState
-                    .SelectMany(ms => ms.Value.Errors)
-                    .Select(e => e.ErrorMessage)
-                    .ToList();
-
-                return BadRequest(messages);
-
-            }
             //var id = _projectService.Create(inputModel);
             var id = await _mediator.Send(command); //O metodo send sempre retorna uma task
 

@@ -15,6 +15,7 @@ using DevFreela.Core.Repositories;
 using DevFreela.Infraestructure.Persistence.Repositories;
 using FluentValidation.AspNetCore;
 using DevFreela.Application.Validators;
+using DevFreela.API.Filters;
 
 namespace DevFreela.API
 {
@@ -44,7 +45,7 @@ namespace DevFreela.API
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ISkillRepository, SkillRepository>();
 
-            services.AddControllers()
+            services.AddControllers(options => options.Filters.Add(typeof(ValidationFilter)))
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateUserCommandValidator>());
 
             services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<CreateProjectCommand>()); //passar o tipo de uma classe do application
