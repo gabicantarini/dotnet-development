@@ -61,13 +61,17 @@ namespace DevFreela.API.Controllers
         public async Task<IActionResult> Post([FromBody] CreateProjectCommand  command)
         {
             // o post retorna a informação pro frontend
-            
-            if (command.Title.Length > 50) //validação para que o título não seja maior que 50
-            {
-                // o post retorna bad request quando não cumpre a validação 
-                return BadRequest();
-            }
 
+            if (!ModelState.IsValid)
+            {
+                var messages = ModelState
+                    .SelectMany(ms => ms.Value.Errors)
+                    .Select(e => e.ErrorMessage)
+                    .ToList();
+
+                return BadRequest(messages);
+
+            }
             //var id = _projectService.Create(inputModel);
             var id = await _mediator.Send(command); //O metodo send sempre retorna uma task
 
