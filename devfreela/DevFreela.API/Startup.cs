@@ -11,6 +11,8 @@ using DevFreela.Application.Services.Implementations;
 using Microsoft.EntityFrameworkCore;
 using DevFreela.Application.Commands.CreateProject;
 using MediatR;
+using DevFreela.Core.Repositories;
+using DevFreela.Infraestructure.Persistence.Repositories;
 
 namespace DevFreela.API
 {
@@ -35,8 +37,9 @@ namespace DevFreela.API
 
             //services.AddScoped<ExampleClass>(e => new ExampleClass { Name = "Initial Stage" }); //AddScoped => padrão de injeção de dependência para registrar um serviço que mantém a mesma instância do serviço durante a vida de uma solicitação HTTP, criando novas instâncias para solicitações subsequentes. 
 
-            services.AddScoped<IProjectService, ProjectServices>();
-            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IProjectRepository, ProjectRepository>();
+            //services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ISkillRepository, SkillRepository>();
 
             services.AddControllers();
 
