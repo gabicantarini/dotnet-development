@@ -1,6 +1,5 @@
 ﻿using DevFreela.Application.ViewModels;
 using DevFreela.Core.Repositories;
-using DevFreela.Infraestructure.Persistence;
 using DevFreela.Infraestructure.Persistence.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;

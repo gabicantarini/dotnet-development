@@ -60,14 +60,15 @@ namespace DevFreela.Infraestructure.Persistence.Repositories
             }
         }
 
-        public Task AddCommentAsync(ProjectComment projectComment)
+        public async Task AddCommentAsync(ProjectComment projectComment)
         {
-            throw new NotImplementedException();
+            await _dbContext.Comments.AddAsync(projectComment);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public Task SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            await _dbContext.SaveChangesAsync();
         }
     }
 }
