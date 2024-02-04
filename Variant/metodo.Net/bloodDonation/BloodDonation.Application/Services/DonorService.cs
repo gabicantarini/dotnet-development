@@ -1,4 +1,10 @@
-﻿using System;
+﻿using BloodDonation.Application.Interfaces;
+using BloodDonation.Core.Entities;
+using BloodDonation.Core.Enums;
+using BloodDonation.Infraestructure.Persistence;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,39 +14,43 @@ namespace BloodDonation.Application.Services
 {
     public class DonorService : IDonorService
     {
-        private readonly IDonorRepository _donorRepository;
-        public DonorService(IDonorRepository donorRepository)
+        private readonly BloodDonationDbContext _dbContext;
+        public DonorService(BloodDonationDbContext dbContext)
         {
-            _donorRepository = donorRepository;
+            _dbContext = dbContext;
         }
 
-        public async Task<bool> CheckDonorIsValid(Donor donor)
+        public async Task<bool> CheckDonorIsValid(Donator donator)
         {
-            if (donor.Weight < 50)
+            await _dbContext.Donators.AddAsync(donator);
+
+            await _dbContext.SaveChangesAsync();
+
+            if (donator.Weight < 50)
             {
                 throw new Exception("Peso mínimo para doação é de 50Kg");
             }
 
-            var age = DateTime.Now.Year - donor.BirthDate.Year;
+            var age = DateTime.Now.Year - donator.BirthDate.Year;
 
             if (age < 18)
             {
                 throw new Exception("A idade para doar precisa ser superior a 18 anos!");
             }
 
-            if (donor != null)
+            if (donator != null)
             {
-                var lastDonation = donor.Donations.OrderByDescending(d => d.DonationDate).Select(d => d.DonationDate).FirstOrDefault();
+                var lastDonation = donator.Donations.OrderByDescending(d => d.DonationDate).Select(d => d.DonationDate).FirstOrDefault();
 
                 if (lastDonation != null)
                 {
-                    var period = (donor.Gender == Core.Enums.Gender.Female ? 60 : 90);
+                    //var period = (donator.Gender == Core.Enums.Gender ? 60 : 90);
                     var daysOfLasDonation = (DateTime.Today - lastDonation).Days;
-                    var daysLeft = period - daysOfLasDonation;
+                    //var daysLeft = period - daysOfLasDonation;
 
-                    if (daysOfLasDonation < period)
+                    if (daysOfLasDonation < daysOfLasDonation)
                     {
-                        throw new Exception($"{donor.FullName}, é necessário aguardar mais {daysLeft} dias para doar novamente!");
+                        throw new Exception($"{donator.FullName}, é necessário aguardar mais {daysOfLasDonation} dias para doar novamente!");
                     }
                 }
             }
