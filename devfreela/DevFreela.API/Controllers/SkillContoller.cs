@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using DevFreela.Application.Queries.GetAllSkills;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
@@ -18,7 +19,11 @@ namespace DevFreela.API.Controllers
         [HttpGet]
         public async Task <IActionResult> Get()
         {
-            return Ok();
+            var query = new GetAllSkillsQuery();
+
+            var skills = await _mediator.Send(query);
+
+            return Ok(skills);
         }
 
         [HttpPost]
