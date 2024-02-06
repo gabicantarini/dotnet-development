@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 namespace DevFreela.Core.Entities
 {
     public class User: BaseEntity
-    {
-     
-        public User(string fullName, string email, DateTime birthDate)
+    {     
+        public User(string fullName, string email, DateTime birthDate, string password, string role)
         {
             FullName = fullName;
             Email = email;
             CreateAt = DateTime.Now;
             BirthDate = birthDate;
-            Active = true;            
+            Active = true;  
+            Password = password;
+            Role = role;
             Skills = new List<UserSkill>();
             OwnedProjects = new List<Project>(); //for the client who has project and need a freelancer
             FreelanceProjects = new List<Project>();//for freelancers control their projects
@@ -26,11 +27,12 @@ namespace DevFreela.Core.Entities
         public string  Email { get; private set; }
         public DateTime BirthDate { get; private set; }
         public DateTime CreateAt { get; private set; }
-        public bool Active { get; set; }        
+        public bool Active { get; set; }
+        public string Password { get; private set; }
+        public string Role  { get; private set; }
         public List<UserSkill> Skills { get; private set; } // um usuário terá uma lista de habilidades
         public List<Project> OwnedProjects { get; private set; }
         public List<Project> FreelanceProjects { get; private set; }
-
         public List<ProjectComment> Comments { get; private set; }
     }
 }
