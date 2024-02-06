@@ -6,9 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using DevFreela.Infraestructure.Persistence;
-using DevFreela.Application.Services.Interfaces;
-using DevFreela.Application.Services.Implementations;
-using Microsoft.EntityFrameworkCore;
 using DevFreela.Application.Commands.CreateProject;
 using MediatR;
 using DevFreela.Core.Repositories;
@@ -16,6 +13,9 @@ using DevFreela.Infraestructure.Persistence.Repositories;
 using FluentValidation.AspNetCore;
 using DevFreela.Application.Validators;
 using DevFreela.API.Filters;
+using DevFreela.Core.Services;
+using DevFreela.Infraestructure.Auth;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.API
 {
@@ -44,6 +44,7 @@ namespace DevFreela.API
             services.AddScoped<IProjectRepository, ProjectRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ISkillRepository, SkillRepository>();
+            services.AddScoped<IAuthService, AuthService>();
 
             services.AddControllers(options => options.Filters.Add(typeof(ValidationFilter)))
                 .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<CreateUserCommandValidator>());
