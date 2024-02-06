@@ -4,17 +4,13 @@ using DevFreela.Application.Commands.DeleteProject;
 using DevFreela.Application.Commands.CreateProject;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using DevFreela.Application.Commands.UpdateProject;
 using DevFreela.Application.Commands.FinishProject;
 using DevFreela.Application.Commands.StartProject;
 using DevFreela.Application.Queries.GetAllProjects;
 using DevFreela.Application.Queries.GetProjectById;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DevFreela.API.Controllers
 {
@@ -29,6 +25,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects?query=net core
         [HttpGet]
+        [Authorize(Roles = "client, freelancer")]
         public async Task<IActionResult> Get(string query)//query é um parâmetro para consulta
         {
             var getAllProjectsQuery = new GetAllProjectsQuery(query);
@@ -40,6 +37,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects/2
         [HttpGet("{id}")]
+        [Authorize(Roles = "client, freelancer")]
         public async Task<IActionResult> GetById(int id) // consulta com parâmetro de url id
         {
             var query = new GetProjectByIdQuery(id);
@@ -55,8 +53,8 @@ namespace DevFreela.API.Controllers
         }
 
 
-        [HttpPost]
-        //o post retorna uma anotação com o corpo da requisição [from body] com o objeto da CreateProjectModel (q tem o id, o titulo e a description)
+        [HttpPost] //o post retorna uma anotação com o corpo da requisição [from body] com o objeto da CreateProjectModel (q tem o id, o titulo e a description)        
+        [Authorize(Roles = "client")]
         public async Task<IActionResult> Post([FromBody] CreateProjectCommand  command)
         {
             // o post retorna a informação pro frontend
@@ -74,8 +72,8 @@ namespace DevFreela.API.Controllers
         }
 
         // api/projects/2 - Ex: vai atualizar o objeto com o id
-        [HttpPut("{id}")]
-        // o put retorna uma anotação com o corpo da requisição [from body] com o objeto da UpdateProjectModel (que só tem a descrição)
+        [HttpPut("{id}")] // o put retorna uma anotação com o corpo da requisição [from body] com o objeto da UpdateProjectModel (que só tem a descrição)
+        [Authorize(Roles = "client")]
         public async Task<IActionResult> Put(int id, [FromBody] UpdateProjectCommand command)
         {
             if (command.Description.Length > 200)
@@ -90,6 +88,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects/3 DELETE
         [HttpDelete("{id}")]
+        [Authorize(Roles = "client")]
         public async Task<IActionResult> Delete(int id)
         {
             var command = new DeleteProjectCommand(id);
@@ -102,6 +101,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects/1/comments POST
         [HttpPost("{id}/comments")]
+        [Authorize(Roles = "client, freelancer")]
         public async Task<IActionResult> Post([FromBody] CreateCommentCommand command)
         {
             await _mediator.Send(command);
@@ -111,6 +111,7 @@ namespace DevFreela.API.Controllers
         // api/projects/1/start
 
         [HttpPut("{id}/start")]
+        [Authorize(Roles = "client")]
         public async Task<IActionResult> Start(int id)
         {
             var command = new StartProjectCommand(id);
@@ -120,6 +121,7 @@ namespace DevFreela.API.Controllers
 
         // api/projects/1/finish
         [HttpPut("{id}/finish")]
+        [Authorize(Roles = "client")]
         public async Task<IActionResult> Finish(int id)
         {
             var command = new FinishProjectCommand(id);
