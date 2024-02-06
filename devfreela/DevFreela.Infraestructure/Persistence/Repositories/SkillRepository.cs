@@ -1,7 +1,9 @@
 ﻿using Dapper;
 using DevFreela.Core.DTOs;
+using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -13,25 +15,32 @@ namespace DevFreela.Infraestructure.Persistence.Repositories
 {
     public class SkillRepository : ISkillRepository
     {
-        private readonly string _connectionString;
-
-        public SkillRepository(IConfiguration configuration) 
+        private readonly DevFreelaDbContext _dbContext;
+        public SkillRepository(DevFreelaDbContext dbContext)
         {
-            _connectionString = configuration.GetConnectionString("DevFreelaCs");
+            _dbContext = dbContext;
+        }
+
+        public async Task<List<SkillDTO>> GetAll()
+        {
+            var skills = _dbContext.Skills;
+
+            var skillsViewModel = await skills
+                .Select(s => new SkillDTO(s.Id, s.Description))
+                .ToListAsync();
+
+            return skillsViewModel;
         }
 
         public async Task<List<SkillDTO>> GetAllAsync()
         {
-            using (var sqlConnection = new SqlConnection(_connectionString)) 
-            {
-                sqlConnection.Open();
+            var skills = _dbContext.Skills;
 
-                var script = "SELECT Id, Description FROM Skills";
+            var skillsViewModel = await skills
+                .Select(s => new SkillDTO(s.Id, s.Description))
+                .ToListAsync();
 
-                var skills = await sqlConnection.QueryAsync<SkillDTO>(script);
-
-                return skills.ToList();
-            }
+            return skillsViewModel;
 
 
             // COM EF CORE
@@ -42,6 +51,13 @@ namespace DevFreela.Infraestructure.Persistence.Repositories
             //    .ToList();
 
             //return skillsViewModel;
+        }
+
+        public async Task AddSkill(Skill skill)
+        {
+            await _dbContext.Skills.AddAsync(skill);
+
+            await _dbContext.SaveChangesAsync();
         }
 
     }
