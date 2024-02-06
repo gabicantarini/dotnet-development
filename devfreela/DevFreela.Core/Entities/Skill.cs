@@ -8,9 +8,9 @@ namespace DevFreela.Core.Entities
 {
     public class Skill : BaseEntity
     {
-        public Skill(string descritpion)
+        public Skill(string description)
         {
-            Description = descritpion;
+            Description = description;
             CreateAt = DateTime.Now;
         }
 
