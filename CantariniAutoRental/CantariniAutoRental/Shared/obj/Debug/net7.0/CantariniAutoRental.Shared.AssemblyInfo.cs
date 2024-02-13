@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DevFreela.Payments.API")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CantariniAutoRental.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0ef4493ce0fe267cde47a4936ff1903eba5c1b2")]
-[assembly: System.Reflection.AssemblyProductAttribute("DevFreela.Payments.API")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DevFreela.Payments.API")]
+[assembly: System.Reflection.AssemblyProductAttribute("CantariniAutoRental.Shared")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CantariniAutoRental.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
