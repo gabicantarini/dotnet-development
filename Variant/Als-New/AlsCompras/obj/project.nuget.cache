@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SOhHf1neVQFx3ELY5tgzK5CSHVBEJDYpEjJ7H6i3aQi1uWMXuQ6anG6O3KzPhnFPlGBvI5yBeVvuFVfBz+WSLg==",
+  "dgSpecHash": "44M9lHGTWp2PHgGEXLhZ5FSIO9CYh9pUqwMwAARVBnsffBQUycrPZRf47t6y4MCtWNPbfYO4vbHAEgYVshJCfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\AlsBuyNew\\AlsCompras\\AlsCompras.csproj",
+  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Variant\\Als-New\\AlsCompras\\AlsCompras.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriela\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Gabriela\\.nuget\\packages\\jquery\\1.8.0\\jquery.1.8.0.nupkg.sha512",

@@ -7,7 +7,8 @@
 ### **Technologies** ⌨️
 - ASP.NET Core 7
 - Entity Framework Core
-- SQL Server
+- SQL Server | PHP MYADMIN
+
 
 ### **Functionalities** ⚙️
 - User registration for Client.
@@ -29,3 +30,9 @@
 - Authentication and Authorization with JWT Bearer
 - Unity tests: XUnit
 - Fluent Validation para validação de API
+
+## Photos 📷
+
+<p>End Point Screen: </p><img height="300" width="500" src="./src/img/img.png">
+
+<a href="https://www.linkedin.com/in/gabrielacantarini/">Gabriela Cantarini</a>
