@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Edit Expense";
+}
+
+@model SpendSmart.Models.Expense
+
+<div class="text-center">
+    <h1 class="display-4">Edit Expense</h1>
+</div>
+
+<form>
+    <label>Id</label>
+    <input class="form-control" type="number" asp-for="Id" />
+
+    <label class="mt-4">Value $</label>
+    <input class="form-control" type="number" asp-for="Value" step="0.01" />
+
+    <label class="mt-4">Description</label>
+    <input class="form-control" type="string" asp-for="Description" />
+
+    <button class="btn btn-primary mt-4" type="submit">OK</button>
+</form>
