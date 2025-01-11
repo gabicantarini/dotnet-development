@@ -7,7 +7,7 @@ namespace SpendSmart.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ExpenseDbContext _context;
+        private readonly ExpenseDbContext _context; //add dependency injection
 
         public HomeController(ILogger<HomeController> logger, ExpenseDbContext context)
         {
@@ -31,7 +31,7 @@ namespace SpendSmart.Controllers
             return View(allExpenses);
         }
 
-        public IActionResult CreateExpense()
+        public IActionResult CreateExpense(int? id)
         {
             return View();
         }
@@ -43,7 +43,9 @@ namespace SpendSmart.Controllers
 
         public IActionResult CreatedExpenseForm(Expense model) 
         { 
-            return RedirectToAction("Index");
+            _context.Expenses.Add(model); //to access expense table
+            _context.SaveChanges();
+            return RedirectToAction("Expenses");
         }
 
         public IActionResult EditedExpenseForm(Expense model)
