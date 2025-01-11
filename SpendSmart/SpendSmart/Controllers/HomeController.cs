@@ -7,10 +7,12 @@ namespace SpendSmart.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ExpenseDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ExpenseDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -25,7 +27,8 @@ namespace SpendSmart.Controllers
 
         public IActionResult Expenses()
         {
-            return View();
+            var allExpenses = _context.Expenses.ToList(); //get all expenses and put into a list
+            return View(allExpenses);
         }
 
         public IActionResult CreateExpense()
