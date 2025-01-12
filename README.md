@@ -11,7 +11,7 @@
 ## SpendSmart <a name="id001" href="https://github.com/gabicantarini/dotnet-development">Repository</a>
 
 **SpendSmart was developed with clean architecture.**
-<br />Its purpose is to offer control of expenses.
+<br />Its purpose is to offer streaming control of expenses.
 
 **Technologies** ⌨️
 - ASP.NET Core 8
@@ -27,6 +27,9 @@
 - ASP.NET Core 7
 - Entity Framework Core
 - SQL Server
+- Dapper
+- MediatR
+
 
 ## BookAPI <a name="id01" href="https://github.com/gabicantarini/dotnet-development/tree/main/BookAPI">Repository</a>
 
