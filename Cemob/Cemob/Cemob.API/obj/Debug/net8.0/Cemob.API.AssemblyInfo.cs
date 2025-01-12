@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cemob.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+374fe68a858a1eed702974417e1291a88f100a46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9329d87bb378f69d50f480910531b6f945ad3329")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cemob.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cemob.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
