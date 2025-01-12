@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "bUBXavh/zDKuQgW4TQ3lRqQzLeSxZtq5E6TOg47z9CMA0SzuJewE/nz7enYUTEWR7/mlF+nWNMEuehbGujXO0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\Cemob\\Cemob\\Cemob.API\\Cemob.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriela\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Gabriela\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Gabriela\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Gabriela\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Gabriela\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Gabriela\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

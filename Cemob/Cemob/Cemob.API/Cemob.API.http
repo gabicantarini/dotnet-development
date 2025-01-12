@@ -1,0 +1,6 @@
+@Cemob.API_HostAddress = http://localhost:5287
+
+GET {{Cemob.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
