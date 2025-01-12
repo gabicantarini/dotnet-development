@@ -1,4 +1,4 @@
-﻿@{
+﻿@* @{
     ViewData["Title"] = "Edit Expense";
 }
 
@@ -8,7 +8,7 @@
     <h1 class="display-4">Edit Expense</h1>
 </div>
 
-<form>
+<form asp-action="EditExpense" asp-controller="Home">
     <label>Id</label>
     <input class="form-control" type="number" asp-for="Id" />
 
@@ -19,4 +19,4 @@
     <input class="form-control" type="string" asp-for="Description" />
 
     <button class="btn btn-primary mt-4" type="submit">OK</button>
-</form>
+</form> *@

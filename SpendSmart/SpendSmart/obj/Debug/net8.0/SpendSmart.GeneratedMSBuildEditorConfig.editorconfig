@@ -18,8 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\SpendSmart\SpendSmart
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/dotnet/SpendSmart/SpendSmart/Views/Home/CreateExpense.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVFeHBlbnNlLmNzaHRtbA==
+[C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/dotnet/SpendSmart/SpendSmart/Views/Home/CreateOrEditExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGVPckVkaXRFeHBlbnNlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gabriela/Desktop/Cantarini/Gabriela/2022TI/dotnet/SpendSmart/SpendSmart/Views/Home/EditExpense.cshtml]

@@ -10,5 +10,7 @@ namespace SpendSmart.Models
 
         [Required]
         public string? Description { get; set; }
+
+        public string Streaming { get; set; }
     }
 }

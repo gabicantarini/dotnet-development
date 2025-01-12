@@ -28,29 +28,43 @@ namespace SpendSmart.Controllers
         public IActionResult Expenses()
         {
             var allExpenses = _context.Expenses.ToList(); //get all expenses and put into a list
+            var totalExpenses = allExpenses.Sum(x => x.Value);
+
+            ViewBag.Expenses = totalExpenses;
             return View(allExpenses);
         }
 
-        public IActionResult CreateExpense(int? id)
+        public IActionResult CreateOrEditExpense(int? id)
         {
+            if (id != null)
+            {
+                var expenseInDb = _context.Expenses.SingleOrDefault(expense => expense.Id == id);
+                return View(expenseInDb);
+            }
             return View();
         }
 
-        public IActionResult EditExpense() 
-        {
-            return View();        
-        }
-
-        public IActionResult CreatedExpenseForm(Expense model) 
+        public IActionResult CreateOrEditExpenseForm(Expense model) 
         { 
-            _context.Expenses.Add(model); //to access expense table
+            if(model.Id == 0)
+            {
+                _context.Expenses.Add(model); //to access expense table and create a new item
+
+            } else
+            {
+                _context.Expenses.Update(model); //to access expense table and update an item
+
+            }         
             _context.SaveChanges();
             return RedirectToAction("Expenses");
         }
 
-        public IActionResult EditedExpenseForm(Expense model)
+        public IActionResult DeleteExpenseForm(int id)
         {
-            return RedirectToAction("Index");
+            var expenseInDb = _context.Expenses.SingleOrDefault(expense => expense.Id == id);
+            _context.Expenses.Remove(expenseInDb);
+            _context.SaveChanges();
+            return RedirectToAction("Expenses");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\SpendSmart\\SpendSmart\\wwwroot\\img\\AmazonPrime.jpg",
+      "PackagePath": "staticwebassets\\img\\AmazonPrime.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\SpendSmart\\SpendSmart\\wwwroot\\img\\Netflix-Logo.jpg",
+      "PackagePath": "staticwebassets\\img\\Netflix-Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\SpendSmart\\SpendSmart\\wwwroot\\img\\Streamings.jpg",
+      "PackagePath": "staticwebassets\\img\\Streamings.jpg"
+    },
+    {
       "Id": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\SpendSmart\\SpendSmart\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
