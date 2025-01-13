@@ -33,7 +33,7 @@
 
 ## Photos 📷
 
-<p>End Point Screen: </p><code><img height="300" width="500" src="./endpoints.jpg"></code>
-<p>Schemas Screen: </p><code><img height="300" width="500" src="../img/schemas.jpg"></code>
+<p>End Point Screen: </p><code><img height="400" width="500" src="./endpoints.jpg"></code>
+<p>Schemas Screen: </p><code><img height="400" width="500" src="./schemas.jpg"></code>
 
 <a href="https://www.linkedin.com/in/gabrielacantarini/">Gabriela Cantarini</a>
