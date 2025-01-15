@@ -16,7 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevFreela.UnitTests", "DevFreela.UnitTests\DevFreela.UnitTests.csproj", "{DA9A8A18-00C4-422F-A40A-3B1C5A0DD0BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevFreela.UnitTests", "DevFreela.UnitTests\DevFreela.UnitTests.csproj", "{DA9A8A18-00C4-422F-A40A-3B1C5A0DD0BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{67F564E7-DD7C-4825-A009-776149C2A8EF}"
+	ProjectSection(SolutionItems) = preProject
+		img\endpoints.jpg = img\endpoints.jpg
+		img\schemas.jpg = img\schemas.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +53,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67F564E7-DD7C-4825-A009-776149C2A8EF} = {60075B37-947F-4E1D-80EB-C69A5E734AD4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D7FF179-E1AD-486D-8D30-5E2738DD14E5}
