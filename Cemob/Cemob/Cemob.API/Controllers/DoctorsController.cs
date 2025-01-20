@@ -6,14 +6,11 @@ namespace Cemob.API.Controllers
     [Route("api/doctors")]
     public class DoctorsController : ControllerBase
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            return View();
+            return Ok();
         }
 
-        private IActionResult View()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
