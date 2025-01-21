@@ -7,12 +7,7 @@ namespace Cemob.API.Controllers
     [Route("api/services")]
     public class ServicesController : ControllerBase
     {
-        //Get -> api/services
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            return Ok();
-        }
+
 
         //Get -> api/services?search=crm
         [HttpGet]
@@ -65,7 +60,7 @@ namespace Cemob.API.Controllers
 
         //POST -> api/services/123/comments
         [HttpPost("{id}/comments")]
-        public IActionResult PostComment(int id, CreateServiceCommentInputModel model) 
+        public IActionResult PostComment(int id, CreateServicesCommentInputModel model) 
         { 
             return Ok(); 
         }
