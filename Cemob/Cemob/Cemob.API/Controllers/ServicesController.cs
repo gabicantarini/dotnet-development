@@ -1,5 +1,6 @@
 ﻿using Cemob.API.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Options;
 
 namespace Cemob.API.Controllers
 {
@@ -7,7 +8,12 @@ namespace Cemob.API.Controllers
     [Route("api/services")]
     public class ServicesController : ControllerBase
     {
-
+        // -> constructor for the total cost config
+        private readonly ServiceTotalCostConfig _config;
+        public ServicesController(IOptions<ServiceTotalCostConfig> config) //IOptions depends on ServicesController
+        {
+            _config = config.Value;
+        }
 
         //Get -> api/services?search=crm
         [HttpGet]
@@ -27,6 +33,10 @@ namespace Cemob.API.Controllers
         [HttpPost]
         public IActionResult Post(CreateServicesInputModel model)
         {
+            if(model.Price < _config.Minimum || model.Price > _config.Maximum)
+            {
+                return BadRequest("Valor do Serviço fora dos limites.");
+            }
             return CreatedAtAction(nameof(GetById), new { id = 1 }, model);
         }
 
