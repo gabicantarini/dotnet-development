@@ -7,14 +7,11 @@ namespace Cemob.API.Controllers
     [Route("api/supports")]
     public class UsersController : ControllerBase
     {
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            return View();
+            return Ok();
         }
 
-        private IActionResult View()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
