@@ -32,6 +32,7 @@
 - Fluent Validation para validação de API
 
 ## Photos 📷
+![endpoints](https://github.com/gabicantarini/dotnet-development/devfreela/assets/8a9f2f5b-1d17-47f5-83a9-e72f5d886590)
 
 ![image](https://github.com/gabicantarini/dotnet-development/devfreela/assets/d4298068-2781-414e-9741-9e226076ea06)
 
