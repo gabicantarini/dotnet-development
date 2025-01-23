@@ -33,7 +33,7 @@
 
 ## Photos 📷
 
-![endpoints](https://github.com/gabicantarini/dotnet-development/devfreela/assets/d4298068-2781-414e-9741-9e226076ea06)
+![image](https://github.com/gabicantarini/dotnet-development/devfreela/assets/d4298068-2781-414e-9741-9e226076ea06)
 
 <p>Schemas Screen: </p><img height="300" width="500" src="../img/schemas.jpg">
 
