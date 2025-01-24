@@ -2,8 +2,8 @@
 
 namespace VatRate.Business
 {
-    public class IVatCalculatorService
+    public interface IVatCalculatorService
     {
-        //VatCalculationResponse Calculate(VatCalculationResponse request)
+        VatCalculationResponse Calculate(VatCalculationResponse request);
     }
 }
