@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VatRate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+607f3448cecb320ef47e1f34b0471f0899fd89bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8ede71063d9d7c2eaaf3c7aa40a609bce0c2095")]
 [assembly: System.Reflection.AssemblyProductAttribute("VatRate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VatRate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
