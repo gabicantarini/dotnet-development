@@ -1,0 +1,6 @@
+@VatRate_HostAddress = http://localhost:5047
+
+GET {{VatRate_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
