@@ -46,3 +46,4 @@ C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\VatRate.API\VatRate\o
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\VatRate.API\VatRate\obj\Debug\net8.0\VatRate.pdb
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\VatRate.API\VatRate\obj\Debug\net8.0\VatRate.genruntimeconfig.cache
 C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\VatRate.API\VatRate\obj\Debug\net8.0\ref\VatRate.dll
+C:\Users\Gabriela\Desktop\Cantarini\Gabriela\2022TI\dotnet\VatRate.API\VatRate\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

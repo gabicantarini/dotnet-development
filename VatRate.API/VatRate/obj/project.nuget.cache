@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "430RwAWR+9da9G03AIEXJkkdzySwAxaWrh9tCfZQbTWpMS2X8PKzsH2lKstuIoZYg9n9gdvax6pb+RRE5EsWWg==",
+  "dgSpecHash": "54GtmInftAblti1E7jyhnlSsadIizVedJDEJL1YcxNWoGHbC5Lh+AKkWrMiQiWIrWrzjmQq6gfikHDh86usucg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriela\\Desktop\\Cantarini\\Gabriela\\2022TI\\dotnet\\VatRate.API\\VatRate\\VatRate.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriela\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\Gabriela\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\Gabriela\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\Gabriela\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Gabriela\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",

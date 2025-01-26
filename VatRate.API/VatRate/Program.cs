@@ -1,11 +1,21 @@
+using FluentValidation;
+using VatRate.Business.Interfaces;
+using VatRate.Business.Implementations;
+using VatRate.Business.UseCases.VatCalculationUseCase;
+using VatRate.Dtos;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<VatCalculationUseCaseHandler>());
+builder.Services.AddScoped<IVatCalculatorService, VatCalculatorService>();
+//builder.Services.AddScoped<IValidator<VatCalculationRequestDto>, VatCalculationUseCasetValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<VatCalculationUseCasetValidator>();
 
 var app = builder.Build();
 

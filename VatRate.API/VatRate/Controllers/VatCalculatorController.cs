@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using VatRate.Business.UseCases.VatCalculationUseCase;
+using VatRate.Dtos;
 
 namespace VatRate.Controllers
 {
@@ -6,10 +9,27 @@ namespace VatRate.Controllers
     [Route("api/vat-calculator")]
     public class VatCalculatorController : ControllerBase
     {
-        [HttpPost]
-        public async Task<IActionResult> CalculateVat()
+        private readonly IMediator _mediator;
+
+        public VatCalculatorController(IMediator mediator)
         {
-            return Ok();
+            _mediator = mediator;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CalculateVat([FromBody] VatCalculationRequestDto request)
+        {
+            try
+            {
+                VatCalculationUseCaseRequest vatCalculationUseCaseRequest = new(request);
+                VatCalculationResponseDto vatCalculationResponseDto = await _mediator.Send(vatCalculationUseCaseRequest);
+                return Ok(vatCalculationResponseDto);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
