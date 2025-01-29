@@ -17,20 +17,13 @@ namespace VatRate.Controllers
         }
 
         [HttpPost]
+
         public async Task<IActionResult> CalculateVat([FromBody] VatCalculationRequestDto request)
         {
-            try
-            {
-                VatCalculationUseCaseRequest vatCalculationUseCaseRequest = new(request);
-                VatCalculationResponseDto vatCalculationResponseDto = await _mediator.Send(vatCalculationUseCaseRequest);
-                return Ok(vatCalculationResponseDto);
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
+            VatCalculationUseCaseRequest vatCalculationUseCaseRequest = new(request);
+            VatCalculationResponseDto vatCalculationResponseDto = await _mediator.Send(vatCalculationUseCaseRequest);
+            return Ok(vatCalculationResponseDto);
         }
     }
 }
-                        
+                     

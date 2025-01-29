@@ -10,9 +10,11 @@ namespace Cemob.API.Controllers
     {
         // -> constructor for the total cost config
         private readonly ServiceTotalCostConfig _config;
-        public ServicesController(IOptions<ServiceTotalCostConfig> config) //IOptions depends on ServicesController
+        
+        public ServicesController(
+            IOptions<ServiceTotalCostConfig> options) //IOptions depends on ServicesController
         {
-            _config = config.Value;
+            _config = options.Value;
         }
 
         //Get -> api/services?search=crm
@@ -26,8 +28,6 @@ namespace Cemob.API.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
-            throw new Exception();
-
             return Ok();
         }
 
