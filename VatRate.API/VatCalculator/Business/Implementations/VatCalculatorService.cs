@@ -7,7 +7,7 @@ namespace VatCalculator.Business.Implementations
     {
         public ValueResponseDto Calculate(ValueRequestDto request)
         {
-            decimal net, gross, vat;
+            decimal net =0, gross=0, vat = 0, austriaVatRate=0;
 
             if (request.Net.HasValue && request.Vat.HasValue)
             {
@@ -21,16 +21,21 @@ namespace VatCalculator.Business.Implementations
                 net = Math.Round(gross / (1 + request.Vat.Value / 100));
                 vat = gross - net;
             }
-            else 
+            else if (request.Vat.HasValue && request.AustriaVatRate.HasValue)
             {
-                throw new ArgumentException("Request must include either Net and Vat, or Gross and Vat.");
+                vat = request.Vat.Value;
+                austriaVatRate = request.AustriaVatRate.Value;
+                net = vat * austriaVatRate;
+                gross = net + vat;
             }
 
             return new ValueResponseDto
             {
                 Net = Math.Round(net, 2),
                 Gross = Math.Round(gross, 2),
-                Vat = Math.Round(vat, 2)
+                Vat = Math.Round(vat, 2),
+                AustriaVatRate = Math.Round(austriaVatRate, 2)
+
             };
         }
     }

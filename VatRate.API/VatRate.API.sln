@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VatRate", "VatRate\VatRate.csproj", "{821A7E68-0A3E-4D34-B3A1-1998D9723214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatCalculator", "VatCalculator\VatCalculator.csproj", "{5F3FE2FA-A833-4A22-BD37-057840A90E80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VatCalculator", "VatCalculator\VatCalculator.csproj", "{5F3FE2FA-A833-4A22-BD37-057840A90E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VatCalc", "VatCalc\VatCalc.csproj", "{7E676842-3320-4219-9B22-107CFD2F24B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5F3FE2FA-A833-4A22-BD37-057840A90E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F3FE2FA-A833-4A22-BD37-057840A90E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F3FE2FA-A833-4A22-BD37-057840A90E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E676842-3320-4219-9B22-107CFD2F24B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E676842-3320-4219-9B22-107CFD2F24B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E676842-3320-4219-9B22-107CFD2F24B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E676842-3320-4219-9B22-107CFD2F24B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

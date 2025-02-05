@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VatCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33327eaeb60e30c09bde062a47346441cc421f0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1287281579354cb4b3eccb2a1d6ae0d7d96389ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("VatCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VatCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

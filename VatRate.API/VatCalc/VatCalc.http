@@ -1,0 +1,6 @@
+@VatCalc_HostAddress = http://localhost:5097
+
+GET {{VatCalc_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
