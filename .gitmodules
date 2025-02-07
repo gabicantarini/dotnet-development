@@ -1,0 +1,3 @@
+[submodule "VatRate.API/gblue-assignment-"]
+	path = VatRate.API/gblue-assignment-
+	url = https://github.com/gabicantarini/gblue-assignment-.git
